@@ -3,24 +3,25 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0B1424">
   <title>Feelyoworks · 미래가치개발원</title>
-  <meta name="description" content="AI가 할 수 있는 일은 AI에게 맡기고, 나만 할 수 있는 일에 더 집중하기. AI 활용 교육과 코칭이 만나는 자리, Feelyoworks · 미래가치개발원입니다.">
+  <meta name="description" content="공공기관·대학·기업 100여 곳에서 운영된 AI 실무 교육과 코칭. 강의에서 다루는 도구는 직접 만들어 운영합니다. 미래가치개발원 · 조은이.">
   <meta name="author" content="Feelyoworks · 조은이">
 
   <meta property="og:type" content="website">
   <meta property="og:title" content="Feelyoworks · 미래가치개발원">
-  <meta property="og:description" content="AI 활용 교육과 코칭이 만나는 자리. 도구보다 일을 먼저 들여다봅니다.">
+  <meta property="og:description" content="공공기관·대학·기업 100여 곳에서 운영된 AI 실무 교육·코칭. 강의에서 다루는 도구는 직접 만들어 운영합니다.">
   <meta property="og:url" content="https://feelyoworks.com">
   <meta property="og:locale" content="ko_KR">
   <meta name="twitter:card" content="summary_large_image">
 
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231A2A4A'/%3E%3Cpath d='M22 44V20h22M22 32h16' stroke='white' stroke-width='4.5' stroke-linecap='round' fill='none'/%3E%3Ccircle cx='48' cy='18' r='3.2' fill='%232BD4B0'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230B1424'/%3E%3Cpath d='M22 44V20h22M22 32h16' stroke='white' stroke-width='4.5' stroke-linecap='round' fill='none'/%3E%3Ccircle cx='48' cy='18' r='3.2' fill='%232BD4B0'/%3E%3C/svg%3E">
 
   <link rel="preconnect" href="https://cdn.jsdelivr.net">
   <link rel="stylesheet" as="style" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -29,8 +30,8 @@
   <header class="site-header" aria-label="사이트 헤더">
     <a class="brand" href="#top" aria-label="Feelyoworks 홈">
       <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-        <rect width="40" height="40" rx="9" fill="#1A2A4A"/>
-        <path d="M11 27V13h14M11 20h10" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+        <rect width="40" height="40" rx="9" fill="#FFFFFF"/>
+        <path d="M11 27V13h14M11 20h10" stroke="#0B1424" stroke-width="2.6" stroke-linecap="round" fill="none"/>
         <circle cx="29" cy="11.5" r="2.1" fill="#2BD4B0"/>
       </svg>
       <span class="brand-text">
@@ -41,14 +42,14 @@
 
     <nav class="nav" aria-label="주 메뉴">
       <a href="#about">About</a>
-      <a href="#services">Services</a>
+      <a href="#programs">Programs</a>
+      <a href="#tools">Tools</a>
       <a href="#resources">Resources</a>
-      <a href="#apps">Apps</a>
       <a href="#profile">Profile</a>
       <a href="#contact">Contact</a>
     </nav>
 
-    <a class="btn btn-ink btn-sm header-cta" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">교육 문의</a>
+    <a class="btn btn-accent btn-sm header-cta" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">교육 문의</a>
 
     <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-nav">
       <span></span><span></span><span></span>
@@ -57,12 +58,12 @@
 
   <nav id="mobile-nav" class="mobile-nav" aria-label="모바일 메뉴" hidden>
     <a href="#about">About</a>
-    <a href="#services">Services</a>
+    <a href="#programs">Programs</a>
+    <a href="#tools">Tools</a>
     <a href="#resources">Resources</a>
-    <a href="#apps">Apps</a>
     <a href="#profile">Profile</a>
     <a href="#contact">Contact</a>
-    <a class="btn btn-ink" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">교육 문의</a>
+    <a class="btn btn-accent" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">교육 문의</a>
   </nav>
 
   <main id="main">
@@ -70,135 +71,68 @@
     <!-- HERO -->
     <section id="top" class="hero">
       <div class="hero-text">
-        <p class="eyebrow">Feel Your Works, Better Every Day</p>
+        <p class="eyebrow">AI 실무 교육 · 코칭 · 도구</p>
         <h1>
-          AI가 할 수 있는 일은 AI에게 맡기고,<br>
-          <span class="ink-soft">나만 할 수 있는 일에</span><br>
-          더 집중하기.
+          조직의 AI 실행력,<br>
+          <span class="hl">현장 검증된 프로그램</span>으로.
         </h1>
         <p class="lede">
-          일하는 방식이 빠르게 바뀌고 있어요.<br>
-          그 변화, 같이 걸어요.
+          공공기관·대학·기업 100여 곳에서 운영된 AI 실무 교육과 코칭.<br>
+          강의에서 다루는 도구는 직접 설계·운영합니다.
         </p>
         <div class="cta-row">
-          <a class="btn btn-ink" href="#resources">자료 받기</a>
-          <a class="btn btn-outline" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">교육 문의 →</a>
+          <a class="btn btn-accent btn-lg" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">교육·코칭 문의</a>
+          <a class="btn btn-ghost btn-lg" href="#tools">운영 중인 도구 →</a>
         </div>
       </div>
-      <figure class="hero-art" aria-hidden="true">
-        <!-- 손그림 라인 일러스트: 곡선 + 길 + 점들이 점차 위로 올라가는 모티프 -->
-        <svg viewBox="0 0 480 420" xmlns="http://www.w3.org/2000/svg">
-          <!-- 따뜻한 톤 배경 원 -->
-          <circle cx="320" cy="160" r="120" fill="#FEF3D9"/>
-          <circle cx="120" cy="280" r="60" fill="#E5F2EA"/>
 
-          <!-- 손그림 길 (곡선) -->
-          <path d="M40 360 C 110 340, 150 300, 190 250 S 290 140, 360 110 S 440 70, 460 60"
-                fill="none" stroke="#1A2A4A" stroke-width="2.4" stroke-linecap="round"
-                stroke-dasharray="0.5 6" />
-
-          <!-- 시작점 -->
-          <circle cx="40" cy="360" r="7" fill="#FFFFFF" stroke="#1A2A4A" stroke-width="2.4"/>
-          <!-- 중간점 -->
-          <circle cx="190" cy="250" r="9" fill="#FFFFFF" stroke="#1A2A4A" stroke-width="2.4"/>
-          <!-- 큰 도착점 -->
-          <circle cx="360" cy="110" r="12" fill="#2BD4B0" stroke="#1A2A4A" stroke-width="2.4"/>
-
-          <!-- 작은 사람 형태 (스케치) -->
-          <g stroke="#1A2A4A" stroke-width="2.2" stroke-linecap="round" fill="none">
-            <circle cx="100" cy="318" r="8" fill="#FFFFFF"/>
-            <path d="M100 326 L100 350 M100 335 L88 348 M100 335 L112 348 M100 350 L92 372 M100 350 L108 372"/>
-          </g>
-
-          <!-- 작은 손글씨 텍스트 -->
-          <g font-family="Pretendard, sans-serif" fill="#6B7280" font-size="13" font-style="italic">
-            <text x="370" y="135" text-anchor="middle">한 걸음씩</text>
-          </g>
-
-          <!-- 별/반짝임 -->
-          <g stroke="#1A2A4A" stroke-width="1.6" stroke-linecap="round">
-            <path d="M420 200 L420 212 M414 206 L426 206"/>
-            <path d="M70 220 L70 230 M65 225 L75 225"/>
-            <path d="M260 60 L260 70 M255 65 L265 65"/>
-          </g>
-        </svg>
-      </figure>
+      <aside class="hero-stats" aria-label="핵심 지표">
+        <div class="stat">
+          <div class="stat-num">100<span>+</span></div>
+          <div class="stat-label">출강 기관<br>공공·대학·대기업</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">5,000<span>+</span></div>
+          <div class="stat-label">누적 교육 인원</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">5<span>+</span></div>
+          <div class="stat-label">운영 중인<br>자체 빌드 도구</div>
+        </div>
+        <div class="stat stat-accent">
+          <div class="stat-num">2025</div>
+          <div class="stat-label">한국미래AI협회<br>강사경진대회 <strong>대상</strong></div>
+        </div>
+      </aside>
     </section>
 
     <!-- ABOUT -->
     <section id="about" class="section">
-      <div class="about-frame">
-        <div class="about-card">
-          <p class="eyebrow">왜 Feelyoworks인가</p>
-          <h2>도구부터 배우지 않아요.<br>일을 다시 들여다보는 일이 먼저예요.</h2>
-          <div class="about-body">
-            <p>
-              AI가 일을 점점 더 많이 해주는 시대.<br>
-              그래서 더 중요해진 질문이 있어요.
-            </p>
-            <p class="quote">
-              나는 어디에 시간을 쓰고 싶은가.<br>
-              어떤 일이 진짜 나에게 의미 있는 일인가.
-            </p>
-            <p>
-              Feelyoworks는 여기서 시작합니다.<br>
-              <strong>AI 활용 교육과 코칭이 만나는 자리</strong>예요.
-              무엇이 더 중요한지 알면, AI는 훨씬 잘 쓰입니다.
-            </p>
-            <p>
-              변화는 두려움보다 호기심에서 더 잘 자라요.<br>
-              하루에 한 걸음씩, 같이 걸어가는 자리입니다.
-            </p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- SERVICES -->
-    <section id="services" class="section">
       <header class="section-head">
-        <p class="eyebrow">Services</p>
-        <h2>무엇을 함께 하나요</h2>
+        <p class="eyebrow">About</p>
+        <h2>교육이 곧 빌드입니다.</h2>
+        <p class="section-sub">
+          미래가치개발원은 1인 기업으로 운영되는 AI 실무 교육·코칭 거점입니다.
+          강사가 직접 설계·운영하는 현업 도구를 그대로 강의에 사용합니다.
+          이론과 현장의 간극을 줄이는 것이 운영 원칙입니다.
+        </p>
       </header>
-      <div class="grid-3">
-        <article class="card">
-          <div class="card-icon" aria-hidden="true">
-            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <path d="M4 12l12-6 12 6-12 6z"/>
-              <path d="M9 14v6c0 2 3 4 7 4s7-2 7-4v-6"/>
-              <path d="M28 12v6"/>
-            </svg>
-          </div>
-          <h3>교육</h3>
-          <p>현장에서 검증된 AI 실무 교육.<br>4시간 집중과정부터 36시간 마스터클래스까지.</p>
-          <p class="meta"><em>100여 기관 · 수천 명 출강</em></p>
-        </article>
 
-        <article class="card card-yellow">
-          <div class="card-icon" aria-hidden="true">
-            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <circle cx="11" cy="13" r="4"/>
-              <circle cx="22" cy="14" r="3.5"/>
-              <path d="M4 26c.8-3.6 3.6-6 7-6s6.2 2.4 7 6"/>
-              <path d="M17 26c.6-2.6 2.6-4.5 5-4.5s4.4 1.9 5 4.5"/>
-            </svg>
-          </div>
-          <h3>코칭</h3>
-          <p>AX 시대, 일하는 방식을 다시 설계하는 코칭.<br>무엇을 자동화하고 무엇에 집중할지 함께 잡습니다.</p>
-          <p class="meta"><em>KPC 전문코치 · 1:1 · 팀 코칭</em></p>
+      <div class="grid-3 grid-pillar">
+        <article class="pillar">
+          <div class="pillar-tag">교육</div>
+          <h3>실서비스 기반 교육</h3>
+          <p>강의 자료가 아닌, 운영 중인 실서비스를 다룹니다. 학습 즉시 적용 가능한 워크플로 중심으로 구성합니다.</p>
         </article>
-
-        <article class="card">
-          <div class="card-icon" aria-hidden="true">
-            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
-              <rect x="4" y="7" width="24" height="18" rx="2.5"/>
-              <path d="M14 13l6 3-6 3z" fill="currentColor" stroke="none"/>
-            </svg>
-          </div>
-          <h3>VOD</h3>
-          <p>언제든 다시, 내 속도로.<br>강의 핵심을 영상으로 꺼내볼 수 있도록.</p>
-          <p class="meta"><em>Notion 연결</em></p>
-          <a class="card-link" href="https://bekind2evryth.notion.site/Feelyoworks-352be888e0608059bb40f9502db35b10" target="_blank" rel="noopener">VOD 보러가기 →</a>
+        <article class="pillar">
+          <div class="pillar-tag">코칭</div>
+          <h3>조직 맞춤 도입 설계</h3>
+          <p>팀의 업무를 분해해 자동화 영역과 사람이 집중할 영역을 분리합니다. 도입 로드맵까지 함께 설계합니다.</p>
+        </article>
+        <article class="pillar pillar-accent">
+          <div class="pillar-tag">도구</div>
+          <h3>강사가 곧 빌더</h3>
+          <p>오늘PDF · Trivox Live · Sales Intelligence 등 직접 운영하는 AI 실서비스가 강의의 베이스입니다.</p>
         </article>
       </div>
     </section>
@@ -207,7 +141,8 @@
     <section class="section logos-section" aria-labelledby="logos-title">
       <header class="section-head center">
         <p class="eyebrow">Trusted by</p>
-        <h2 id="logos-title">함께한 곳</h2>
+        <h2 id="logos-title">출강 기관</h2>
+        <p class="section-sub">공공기관·대학·대기업 100여 곳에서 AI 실무 교육·코칭을 운영했습니다.</p>
       </header>
       <ul class="logo-grid" role="list">
         <li><img src="assets/logos/sanhakyeon.png" alt="한국산학연협회"></li>
@@ -224,12 +159,146 @@
       <p class="logo-foot">외 100여 기관</p>
     </section>
 
+    <!-- PROGRAMS (구 Services) -->
+    <section id="programs" class="section">
+      <header class="section-head">
+        <p class="eyebrow">Programs</p>
+        <h2>프로그램</h2>
+      </header>
+      <div class="grid-3">
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M4 12l12-6 12 6-12 6z"/>
+              <path d="M9 14v6c0 2 3 4 7 4s7-2 7-4v-6"/>
+              <path d="M28 12v6"/>
+            </svg>
+          </div>
+          <h3>AI 실무 교육</h3>
+          <p>프롬프트 · AI 에이전트 · 바이브 코딩 · 데이터 분석 · AI 마케팅 · 보고서. 4시간 집중과정부터 36시간 마스터클래스까지 운영합니다.</p>
+          <p class="meta"><em>한국산학연협회 · 중기부 · KORAIL · 후성그룹 외</em></p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <circle cx="11" cy="13" r="4"/>
+              <circle cx="22" cy="14" r="3.5"/>
+              <path d="M4 26c.8-3.6 3.6-6 7-6s6.2 2.4 7 6"/>
+              <path d="M17 26c.6-2.6 2.6-4.5 5-4.5s4.4 1.9 5 4.5"/>
+            </svg>
+          </div>
+          <h3>AX 도입 코칭</h3>
+          <p>팀의 업무를 분해해 무엇을 자동화하고 무엇에 집중할지 분리합니다. 도입 로드맵까지 1:1·팀 단위로 설계합니다.</p>
+          <p class="meta"><em>KPC 전문코치 · 1:1 · 팀 단위</em></p>
+        </article>
+
+        <article class="card">
+          <div class="card-icon" aria-hidden="true">
+            <svg viewBox="0 0 32 32" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="4" y="7" width="24" height="18" rx="2.5"/>
+              <path d="M14 13l6 3-6 3z" fill="currentColor" stroke="none"/>
+            </svg>
+          </div>
+          <h3>온디맨드 콘텐츠</h3>
+          <p>강의 핵심을 영상으로 제공합니다. 사후 학습·신규 입사자 온보딩에 활용됩니다.</p>
+          <p class="meta"><em>Notion 기반 라이브러리</em></p>
+          <a class="card-link" href="https://bekind2evryth.notion.site/Feelyoworks-352be888e0608059bb40f9502db35b10" target="_blank" rel="noopener">VOD 라이브러리 →</a>
+        </article>
+      </div>
+    </section>
+
+    <!-- TOOLS (구 Apps) -->
+    <section id="tools" class="section">
+      <header class="section-head">
+        <p class="eyebrow">Tools</p>
+        <h2>운영 중인 도구</h2>
+        <p class="section-sub">교육에서 다루는 기법으로 직접 빌드해 운영하는 실서비스입니다.</p>
+      </header>
+
+      <div class="grid-apps">
+        <a class="app-card" href="https://pdf-836666412220.us-west1.run.app/" target="_blank" rel="noopener">
+          <div class="app-head">
+            <span class="app-num">01</span>
+            <span class="app-tag">Web App</span>
+          </div>
+          <h3>오늘PDF</h3>
+          <p>PDF 통합 변환·편집 웹앱.</p>
+          <p class="meta"><em>pdf-lib 기반</em></p>
+          <span class="app-go">열기 →</span>
+        </a>
+
+        <a class="app-card app-accent" href="https://web-builder-self-alpha.vercel.app/" target="_blank" rel="noopener">
+          <div class="app-head">
+            <span class="app-num">02</span>
+            <span class="app-tag">Realtime</span>
+          </div>
+          <h3>Trivox Live</h3>
+          <p>실시간 3개국어 회의 통역.</p>
+          <p class="meta"><em>Web Speech · LLM</em></p>
+          <span class="app-go">열기 →</span>
+        </a>
+
+        <a class="app-card" href="https://eunyi-sales-comparison-dashboard.vercel.app/" target="_blank" rel="noopener">
+          <div class="app-head">
+            <span class="app-num">03</span>
+            <span class="app-tag">AI Agent</span>
+          </div>
+          <h3>Monthly Sales Intelligence</h3>
+          <p>AI 에이전트 기반 매출 분석 대시보드.</p>
+          <p class="meta"><em>Codex 기반</em></p>
+          <span class="app-go">열기 →</span>
+        </a>
+
+        <a class="app-card" href="https://promogen-578785233888.us-west1.run.app/" target="_blank" rel="noopener">
+          <div class="app-head">
+            <span class="app-num">04</span>
+            <span class="app-tag">Image Gen</span>
+          </div>
+          <h3>AI 비주얼 메이커</h3>
+          <p>홍보 이미지·썸네일 자동 생성.</p>
+          <p class="meta"><em>Google AI Studio</em></p>
+          <span class="app-go">열기 →</span>
+        </a>
+
+        <a class="app-card" href="https://opal.google/app/1GZRUMw-aTHNqUC5xCnlTTTzIzS2kY_p3" target="_blank" rel="noopener">
+          <div class="app-head">
+            <span class="app-num">05</span>
+            <span class="app-tag">Automation</span>
+          </div>
+          <h3>주간 보고서 봇</h3>
+          <p>주간 보고서 자동 생성.</p>
+          <p class="meta"><em>Opal 기반</em></p>
+          <span class="app-go">열기 →</span>
+        </a>
+      </div>
+
+      <div class="apps-soon">
+        <header class="apps-soon-head">
+          <p class="eyebrow">Roadmap</p>
+          <h3>개발 예정</h3>
+        </header>
+        <div class="grid-2">
+          <article class="soon-card">
+            <span class="badge">In Development</span>
+            <h4>나의 시즌</h4>
+            <p>개인 회고·라이프 단계 진단 도구.</p>
+          </article>
+          <article class="soon-card">
+            <span class="badge">In Development</span>
+            <h4>커리어 컴퍼스</h4>
+            <p>커리어 방향 진단·코칭 도구.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
     <!-- RESOURCES -->
     <section id="resources" class="section">
       <header class="section-head">
         <p class="eyebrow">Resources</p>
-        <h2>바로 써보는 자료들</h2>
-        <p class="section-sub">GitHub · Notion에서 받아가세요</p>
+        <h2>리소스</h2>
+        <p class="section-sub">교육에서 사용하는 프롬프트·템플릿·가이드를 GitHub과 Notion에서 공개합니다.</p>
       </header>
 
       <div class="grid-resources">
@@ -242,7 +311,7 @@
             </svg>
           </div>
           <h3>프롬프트 시작 가이드</h3>
-          <p>결과를 바꾸는 다섯 가지 원칙</p>
+          <p>결과를 바꾸는 다섯 가지 원칙.</p>
         </article>
 
         <article class="rcard">
@@ -254,7 +323,7 @@
             </svg>
           </div>
           <h3>NotebookLM 지식 창고</h3>
-          <p>흩어진 자료를 나만의 AI 창고로</p>
+          <p>업무 자료를 LLM 검색 가능한 형태로.</p>
         </article>
 
         <article class="rcard">
@@ -265,7 +334,7 @@
             </svg>
           </div>
           <h3>AI 보고서 프레임</h3>
-          <p>PREP·MECE 1페이지 보고서</p>
+          <p>PREP·MECE 기반 1페이지 보고서 템플릿.</p>
         </article>
 
         <article class="rcard">
@@ -275,7 +344,7 @@
             </svg>
           </div>
           <h3>공공데이터 분석 키트</h3>
-          <p>함수 없이, 자연어로</p>
+          <p>함수 없이 자연어 기반 데이터 분석.</p>
         </article>
 
         <article class="rcard">
@@ -285,84 +354,13 @@
             </svg>
           </div>
           <h3>첫 AI 앱 만들기</h3>
-          <p>코딩 없이 미니 앱 한 개</p>
+          <p>코딩 없이 미니 앱 한 개 빌드.</p>
         </article>
       </div>
 
       <div class="resource-cta">
-        <a class="btn btn-outline" href="https://github.com/bekind2all/feelyoworks-toolkit" target="_blank" rel="noopener">GitHub 둘러보기 →</a>
-        <a class="btn btn-outline" href="https://bekind2evryth.notion.site/Feelyoworks-352be888e0608064b3d1ceb97b3a73c8" target="_blank" rel="noopener">Notion 자료실 →</a>
-      </div>
-    </section>
-
-    <!-- APPS -->
-    <section id="apps" class="section">
-      <header class="section-head">
-        <p class="eyebrow">Apps</p>
-        <h2>지금 쓰는 도구</h2>
-        <p class="section-sub">강의에서 다루는 'AI 에이전트·바이브 코딩'의 실제 결과물</p>
-      </header>
-
-      <div class="grid-apps">
-        <a class="app-card" href="https://pdf-836666412220.us-west1.run.app/" target="_blank" rel="noopener">
-          <span class="app-emoji" aria-hidden="true">📄</span>
-          <h3>오늘PDF</h3>
-          <p>PDF, 한 번에 변환하고 편집까지</p>
-          <p class="meta"><em>pdf-lib 기반 웹앱</em></p>
-          <span class="app-go">열기 →</span>
-        </a>
-
-        <a class="app-card app-mint" href="https://web-builder-self-alpha.vercel.app/" target="_blank" rel="noopener">
-          <span class="app-emoji" aria-hidden="true">🌐</span>
-          <h3>Trivox Live</h3>
-          <p>회의가 그 자리에서 3개국어로 통역되는 도구</p>
-          <p class="meta"><em>실시간 통역 앱</em></p>
-          <span class="app-go">열기 →</span>
-        </a>
-
-        <a class="app-card app-blue" href="https://eunyi-sales-comparison-dashboard.vercel.app/" target="_blank" rel="noopener">
-          <span class="app-emoji" aria-hidden="true">📊</span>
-          <h3>Monthly Sales Intelligence</h3>
-          <p>매출 데이터를 AI 에이전트가 알아서 분석해주는 대시보드</p>
-          <p class="meta"><em>Codex 기반 AI 에이전트</em></p>
-          <span class="app-go">열기 →</span>
-        </a>
-
-        <a class="app-card" href="https://promogen-578785233888.us-west1.run.app/" target="_blank" rel="noopener">
-          <span class="app-emoji" aria-hidden="true">🎨</span>
-          <h3>AI 비주얼 메이커</h3>
-          <p>홍보 이미지·썸네일을 빠르게</p>
-          <p class="meta"><em>Google AI Studio 기반</em></p>
-          <span class="app-go">열기 →</span>
-        </a>
-
-        <a class="app-card" href="https://opal.google/app/1GZRUMw-aTHNqUC5xCnlTTTzIzS2kY_p3" target="_blank" rel="noopener">
-          <span class="app-emoji" aria-hidden="true">📝</span>
-          <h3>주간 보고서 봇</h3>
-          <p>매주 반복되는 보고서를 한 번에</p>
-          <p class="meta"><em>Opal 기반 자동화 봇</em></p>
-          <span class="app-go">열기 →</span>
-        </a>
-      </div>
-
-      <div class="apps-soon">
-        <header class="apps-soon-head">
-          <p class="eyebrow">Coming Soon</p>
-          <h3>곧 만나요</h3>
-          <p class="section-sub">자기 이해와 일의 방향을 돕는 도구들</p>
-        </header>
-        <div class="grid-2">
-          <article class="soon-card">
-            <span class="badge">Coming Soon</span>
-            <h4><span class="app-emoji" aria-hidden="true">🌱</span> 나의 시즌</h4>
-            <p>지금 내 삶의 계절을 들여다보는 도구</p>
-          </article>
-          <article class="soon-card">
-            <span class="badge">Coming Soon</span>
-            <h4><span class="app-emoji" aria-hidden="true">🧭</span> 커리어 컴퍼스</h4>
-            <p>다음 한 걸음의 방향 잡기</p>
-          </article>
-        </div>
+        <a class="btn btn-ghost" href="https://github.com/bekind2all/feelyoworks-toolkit" target="_blank" rel="noopener">GitHub Toolkit →</a>
+        <a class="btn btn-ghost" href="https://bekind2evryth.notion.site/Feelyoworks-352be888e0608064b3d1ceb97b3a73c8" target="_blank" rel="noopener">Notion 자료실 →</a>
       </div>
     </section>
 
@@ -371,26 +369,25 @@
       <header class="section-head">
         <p class="eyebrow">Profile</p>
         <h2>조은이</h2>
-        <p class="section-sub">Feelyoworks 대표 · 미래가치개발원 대표</p>
+        <p class="section-sub">미래가치개발원 대표 · 한국미래AI협회 부회장</p>
       </header>
 
       <div class="profile-grid">
         <figure class="profile-photo" aria-label="조은이 프로필 사진">
-          <!-- 사진 결정되면 여기 <img>로 교체 -->
           <div class="photo-placeholder" aria-hidden="true">
             <svg viewBox="0 0 200 240" xmlns="http://www.w3.org/2000/svg">
-              <rect width="200" height="240" rx="16" fill="#FEF3D9"/>
-              <circle cx="100" cy="92" r="34" fill="none" stroke="#1A2A4A" stroke-width="2.2"/>
-              <path d="M50 200 C 50 160, 75 140, 100 140 S 150 160, 150 200" fill="none" stroke="#1A2A4A" stroke-width="2.2"/>
-              <text x="100" y="226" text-anchor="middle" font-family="Pretendard,sans-serif" font-size="11" fill="#6B7280">photo</text>
+              <rect width="200" height="240" rx="14" fill="#18243C"/>
+              <circle cx="100" cy="92" r="34" fill="none" stroke="#2BD4B0" stroke-width="2"/>
+              <path d="M50 200 C 50 160, 75 140, 100 140 S 150 160, 150 200" fill="none" stroke="#2BD4B0" stroke-width="2"/>
+              <text x="100" y="226" text-anchor="middle" font-family="Inter,sans-serif" font-size="10" fill="#8590A1" letter-spacing="0.1em">PHOTO</text>
             </svg>
           </div>
         </figure>
 
         <div class="profile-text">
           <p class="profile-lead">
-            AI가 어렵게 느껴지는 분들 곁에서,<br>
-            일이 더 잘 풀리도록 돕습니다.
+            공공기관·대학·기업 100여 곳에서 AI 실무 교육과 코칭을 운영합니다.
+            강의에서 다루는 도구는 직접 설계해 운영하는 실서비스입니다.
           </p>
 
           <dl class="profile-list">
@@ -399,7 +396,17 @@
               <dd>
                 <span>한국미래AI협회 부회장</span>
                 <span>중소상공인AI지원협회 부회장</span>
+                <span>한국미래콘텐츠연구소 이사</span>
                 <span>KPC 전문코치 · 퍼실리테이터</span>
+              </dd>
+            </div>
+            <div>
+              <dt>강의 분야</dt>
+              <dd>
+                <span>챗GPT · 생성AI 업무 효율화</span>
+                <span>프롬프트 엔지니어링 · AI 에이전트</span>
+                <span>바이브 코딩 · 업무 자동화</span>
+                <span>AI 마케팅 · 콘텐츠 · 데이터 분석</span>
               </dd>
             </div>
             <div>
@@ -412,17 +419,16 @@
             <div>
               <dt>수상</dt>
               <dd>
-                <span>한국미래AI협회 2025 강사경진대회 <strong>대상</strong></span>
-                <span>한국강사교육진흥원 2024 빛낸 강사상 (생성AI)</span>
-                <span>(재)카카오임팩트 디지털 교육 표창장</span>
+                <span><strong>2025</strong> 한국미래AI협회 강사경진대회 대상</span>
+                <span><strong>2024</strong> 한국강사교육진흥원 빛낸 강사상 (생성AI)</span>
+                <span><strong>―</strong> (재)카카오임팩트 디지털 교육 표창장</span>
               </dd>
             </div>
             <div>
-              <dt>강의 분야</dt>
+              <dt>자격</dt>
               <dd>
-                <span>챗GPT·생성AI 업무 효율화 · 프롬프트 엔지니어링</span>
-                <span>AI 에이전트 · 바이브 코딩 · 업무 자동화</span>
-                <span>AI 마케팅 · 콘텐츠 제작 · 데이터 분석</span>
+                <span>인공지능 데이터 전문가 1급 · 프롬프트 디자이너 2급</span>
+                <span>코딩교육지도사 1급 · KPC 전문코치 · 퍼실리테이터 1급</span>
               </dd>
             </div>
           </dl>
@@ -434,16 +440,18 @@
     <section id="contact" class="section">
       <div class="contact-card">
         <p class="eyebrow">Contact</p>
-        <h2>함께 일하고 싶다면</h2>
+        <h2>교육 · 코칭 · 협업 문의</h2>
         <p class="contact-lead">
-          교육·코칭·협업 문의를 남겨주세요.<br>
-          빠르게 답장드릴게요.
+          교육 제안서·코칭 일정·협업 문의는 아래 폼으로 접수합니다.<br>
+          영업일 기준 24시간 내 회신드립니다.
         </p>
-        <a class="btn btn-light btn-lg" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">
-          📩 문의 남기기
+        <a class="btn btn-accent btn-lg" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">
+          문의 폼 작성 →
         </a>
         <p class="contact-meta">
-          담당 <strong>조은이</strong> 대표 · <a href="mailto:hyjune0314@naver.com">hyjune0314@naver.com</a>
+          <span>담당</span> 조은이 대표
+          <span class="sep">·</span>
+          <a href="mailto:hyjune0314@naver.com">hyjune0314@naver.com</a>
         </p>
       </div>
     </section>
@@ -454,8 +462,8 @@
     <div class="footer-top">
       <a class="brand" href="#top" aria-label="Feelyoworks 홈">
         <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
-          <rect width="40" height="40" rx="9" fill="#1A2A4A"/>
-          <path d="M11 27V13h14M11 20h10" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+          <rect width="40" height="40" rx="9" fill="#FFFFFF"/>
+          <path d="M11 27V13h14M11 20h10" stroke="#0B1424" stroke-width="2.6" stroke-linecap="round" fill="none"/>
           <circle cx="29" cy="11.5" r="2.1" fill="#2BD4B0"/>
         </svg>
         <span class="brand-text">
@@ -463,19 +471,19 @@
           <span class="brand-sub">미래가치개발원</span>
         </span>
       </a>
-      <p class="footer-tag"><em>Feel Your Works, Better Every Day</em></p>
+      <p class="footer-tag">AI 실무 교육 · 코칭 · 도구</p>
     </div>
 
     <ul class="footer-links" role="list">
-      <li><a href="https://www.youtube.com/@feelyoworks" target="_blank" rel="noopener">📺 YouTube · 오늘AI</a></li>
-      <li><a href="https://feelyoworks.wordpress.com/" target="_blank" rel="noopener">📰 Newsletter</a></li>
-      <li><a href="https://blog.naver.com/chaeum_coach" target="_blank" rel="noopener">✏️ Blog</a></li>
-      <li><a href="https://github.com/bekind2all/feelyoworks-toolkit" target="_blank" rel="noopener">💼 GitHub</a></li>
-      <li><a href="mailto:hyjune0314@naver.com">📧 hyjune0314@naver.com</a></li>
+      <li><a href="https://www.youtube.com/@feelyoworks" target="_blank" rel="noopener">YouTube · 오늘AI</a></li>
+      <li><a href="https://feelyoworks.wordpress.com/" target="_blank" rel="noopener">Newsletter</a></li>
+      <li><a href="https://blog.naver.com/chaeum_coach" target="_blank" rel="noopener">Blog</a></li>
+      <li><a href="https://github.com/bekind2all/feelyoworks-toolkit" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:hyjune0314@naver.com">hyjune0314@naver.com</a></li>
     </ul>
 
     <p class="footer-meta">
-      한국미래AI협회 부회장 · 중소상공인AI지원협회 부회장
+      한국미래AI협회 부회장 · 중소상공인AI지원협회 부회장 · KPC 전문코치
     </p>
     <p class="footer-copy">© <span id="year"></span> Feelyoworks · 미래가치개발원. All rights reserved.</p>
   </footer>
@@ -483,17 +491,13 @@
   <script>
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // 모바일 메뉴 토글
     const toggle = document.querySelector('.nav-toggle');
     const mobileNav = document.getElementById('mobile-nav');
     toggle.addEventListener('click', () => {
       const open = toggle.getAttribute('aria-expanded') === 'true';
       toggle.setAttribute('aria-expanded', String(!open));
-      if (open) {
-        mobileNav.setAttribute('hidden','');
-      } else {
-        mobileNav.removeAttribute('hidden');
-      }
+      if (open) mobileNav.setAttribute('hidden','');
+      else mobileNav.removeAttribute('hidden');
     });
     mobileNav.addEventListener('click', e => {
       if (e.target.tagName === 'A') {
