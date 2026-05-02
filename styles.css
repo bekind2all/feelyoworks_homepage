@@ -1,47 +1,48 @@
 /* ───────────────────────────────────────────
    Feelyoworks · 미래가치개발원
-   v3 · GUARDBASE 톤 흡수
-   - 그리드 패턴 백그라운드
-   - 직각 모서리, 모노 강화
-   - 형광 청록 + 딥 다크
+   v4 · GUARDBASE 본체 톤 흡수
+   - 라이트 오프화이트 베이스
+   - 진한 청록 강조 + 모노 라벨
+   - 십자 코너 마커 + 도트 매트릭스
    ─────────────────────────────────────────── */
 
 :root {
   /* Surfaces */
-  --bg:        #07101F;   /* 메인 배경 — 거의 검정에 가까운 딥 네이비 */
-  --bg-soft:   #0B1424;
-  --bg-card:   #111C30;
-  --bg-card-2: #182640;
-  --bg-mute:   #0E1828;
+  --bg:        #FAFAFA;
+  --bg-soft:   #F4F5F7;
+  --bg-mute:   #F0F1F4;
+  --bg-card:   #FFFFFF;
+  --bg-dark:   #0A1424;   /* contact / footer 강조 박스 */
+  --bg-dark-2: #131D31;
 
   /* Ink */
-  --ink:        #F2F4F8;
-  --ink-soft:   #BFC8D6;
-  --muted:      #7A8597;
-  --muted-soft: #4F5868;
+  --ink:        #0A1424;
+  --ink-soft:   #2A3754;
+  --muted:      #6B7280;
+  --muted-soft: #9CA3AF;
 
   /* Lines */
-  --line:       rgba(255, 255, 255, 0.07);
-  --line-soft:  rgba(255, 255, 255, 0.035);
-  --line-strong: rgba(255, 255, 255, 0.14);
+  --line:        #E4E7EC;
+  --line-strong: #C7CDD7;
+  --line-soft:   #F0F1F4;
 
-  /* Accent — 더 brighter한 청록 (형광 톤) */
-  --accent:        #2BE8B9;
-  --accent-bright: #5DFCD4;
-  --accent-deep:   #14B89A;
-  --accent-soft:   rgba(43, 232, 185, 0.10);
-  --accent-line:   rgba(43, 232, 185, 0.32);
-  --accent-glow:   rgba(43, 232, 185, 0.18);
+  /* Accent — 라이트 베이스에서 가독 좋은 진한 청록 */
+  --accent:        #0BB597;
+  --accent-bright: #00D4B5;
+  --accent-deep:   #08866F;
+  --accent-soft:   #E0F6F1;
+  --accent-line:   rgba(11, 181, 151, 0.32);
+  --accent-glow:   rgba(11, 181, 151, 0.16);
 
   /* Type */
   --font-kr: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, "Segoe UI", "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
   --font-en: "Inter", var(--font-kr);
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Consolas, monospace;
 
-  /* Radii — 직각화 */
+  /* Radii */
   --r-card: 6px;
   --r-lg:   10px;
-  --r-sm:   4px;
+  --r-sm:   3px;
   --r-btn:  4px;
 
   /* Layout */
@@ -56,10 +57,10 @@ html { scroll-behavior: smooth; }
 body {
   margin: 0;
   background-color: var(--bg);
+  /* 옅은 도트 매트릭스 (GUARDBASE 시그니처) */
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
-  background-size: 64px 64px;
+    radial-gradient(circle at 1px 1px, rgba(10, 20, 36, 0.055) 1px, transparent 0);
+  background-size: 28px 28px;
   background-attachment: fixed;
   color: var(--ink);
   font-family: var(--font-kr);
@@ -84,7 +85,7 @@ a:focus-visible {
 .skip-link { position: absolute; left: -9999px; }
 .skip-link:focus {
   left: 1rem; top: 1rem;
-  background: var(--ink); color: var(--bg);
+  background: var(--ink); color: #fff;
   padding: .6rem 1rem; border-radius: 4px; z-index: 100;
 }
 
@@ -97,7 +98,7 @@ a:focus-visible {
   align-items: center;
   gap: 1.5rem;
   padding: 0.85rem var(--gutter);
-  background: rgba(7, 16, 31, 0.85);
+  background: rgba(250, 250, 250, 0.86);
   backdrop-filter: saturate(180%) blur(14px);
   -webkit-backdrop-filter: saturate(180%) blur(14px);
   border-bottom: 1px solid var(--line);
@@ -143,7 +144,6 @@ a:focus-visible {
   font-weight: 500;
   color: var(--ink-soft);
   font-family: var(--font-en);
-  letter-spacing: 0;
 }
 .nav a { padding: .35rem 0; position: relative; transition: color .15s; }
 .nav a:hover { color: var(--accent); }
@@ -162,7 +162,7 @@ a:focus-visible {
   margin-left: auto;
   width: 40px; height: 40px;
   background: transparent;
-  border: 1px solid var(--line);
+  border: 1px solid var(--line-strong);
   border-radius: 4px;
   cursor: pointer;
   padding: 0;
@@ -184,7 +184,7 @@ a:focus-visible {
   flex-direction: column;
   gap: .25rem;
   padding: 1rem var(--gutter) 1.5rem;
-  background: var(--bg-soft);
+  background: var(--bg-card);
   border-bottom: 1px solid var(--line);
 }
 .mobile-nav a {
@@ -217,10 +217,10 @@ a:focus-visible {
 
 .btn-accent {
   background: var(--accent);
-  color: #07101F;
+  color: #FFFFFF;
 }
 .btn-accent:hover {
-  background: var(--accent-bright);
+  background: var(--accent-deep);
   box-shadow: 0 0 0 4px var(--accent-glow);
 }
 
@@ -231,9 +231,15 @@ a:focus-visible {
 }
 .btn-ghost:hover {
   background: var(--bg-card);
-  border-color: var(--accent);
-  color: var(--accent);
+  border-color: var(--ink);
+  color: var(--ink);
 }
+
+.btn-dark {
+  background: var(--ink);
+  color: #FFFFFF;
+}
+.btn-dark:hover { background: var(--bg-dark-2); }
 
 /* ─── Layout ─── */
 main {
@@ -245,9 +251,25 @@ main {
 .section {
   padding: clamp(4.5rem, 9vw, 7.5rem) 0;
   border-top: 1px solid var(--line);
+  position: relative;
 }
 .section:first-of-type { border-top: none; }
 .section-compact { padding: clamp(3.5rem, 7vw, 5.5rem) 0; }
+
+/* 십자 코너 마커 (GUARDBASE 시그니처) — 섹션 경계에 + 부호 */
+.section.has-corners::before,
+.section.has-corners::after {
+  content: "+";
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  color: var(--line-strong);
+  top: -8px;
+  font-weight: 300;
+  line-height: 1;
+}
+.section.has-corners::before { left: -6px; }
+.section.has-corners::after  { right: -6px; }
 
 .section-head {
   margin-bottom: 2.6rem;
@@ -265,13 +287,13 @@ main {
   line-height: 1.7;
 }
 
-/* ─── Eyebrow / Section Number ─── */
+/* ─── Eyebrow / Section Number — GUARDBASE의 ■ 라벨 톤 ─── */
 .eyebrow {
   display: inline-flex;
   align-items: center;
-  gap: .65rem;
+  gap: .55rem;
   margin: 0 0 1.1rem;
-  color: var(--accent);
+  color: var(--ink);
   font-family: var(--font-mono);
   font-weight: 500;
   font-size: 0.74rem;
@@ -280,9 +302,10 @@ main {
 }
 .eyebrow::before {
   content: "";
-  width: 18px;
-  height: 1px;
+  width: 9px;
+  height: 9px;
   background: var(--accent);
+  border-radius: 1px;
 }
 .sec-num {
   font-family: var(--font-mono);
@@ -296,6 +319,27 @@ main {
   letter-spacing: 0.05em;
 }
 
+/* ─── Chip 라벨 (GUARDBASE의 작은 청록 박스 라벨) ─── */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  font-weight: 500;
+  letter-spacing: 0.16em;
+  padding: .3rem .6rem;
+  background: var(--accent);
+  color: #FFFFFF;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+.chip-ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line-strong);
+}
+
+/* ─── Headings ─── */
 h1, h2, h3, h4 {
   margin: 0 0 1rem;
   font-weight: 800;
@@ -305,23 +349,25 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-  font-size: clamp(2.2rem, 5.4vw, 4.2rem);
+  font-size: clamp(2.4rem, 6vw, 4.6rem);
   font-weight: 900;
   line-height: 1.04;
   letter-spacing: -0.055em;
 }
 h1 .hl {
-  color: var(--accent-bright);
+  color: var(--accent);
   font-weight: 900;
   position: relative;
   white-space: nowrap;
 }
 
 h2 {
-  font-size: clamp(1.8rem, 3.4vw, 2.6rem);
+  font-size: clamp(1.8rem, 3.6vw, 2.7rem);
   line-height: 1.18;
   letter-spacing: -0.045em;
 }
+h2 .hl { color: var(--accent); }
+
 h3 {
   font-size: 1.18rem;
   line-height: 1.4;
@@ -348,31 +394,41 @@ p:last-child { margin-bottom: 0; }
 /* ─── Hero ─── */
 .hero {
   display: grid;
-  grid-template-columns: 1.05fr 1fr;
+  grid-template-columns: 1.1fr 1fr;
   gap: clamp(2rem, 5vw, 4.5rem);
   align-items: center;
   padding: clamp(3.5rem, 8vw, 7rem) 0 clamp(4.5rem, 9vw, 7.5rem);
   position: relative;
 }
-.hero::before {
-  content: "";
+
+/* Hero 4 코너 십자 마커 */
+.hero::before, .hero::after {
+  content: "+";
   position: absolute;
-  top: 0;
-  left: 50%;
-  width: 70%;
-  height: 70%;
-  background: radial-gradient(ellipse at center, var(--accent-glow), transparent 70%);
-  filter: blur(80px);
-  z-index: -1;
-  opacity: 0.55;
-  pointer-events: none;
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  color: var(--line-strong);
+  font-weight: 300;
+  line-height: 1;
 }
+.hero::before { top: 1.5rem; left: -1rem; }
+.hero::after  { top: 1.5rem; right: -1rem; }
+
+.hero-meta {
+  position: absolute;
+  top: 1rem; right: -.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: .35rem;
+}
+
 .hero-text .lede {
-  margin: 1.5rem 0 2.1rem;
-  font-size: clamp(1rem, 1.4vw, 1.15rem);
+  margin: 1.6rem 0 2.2rem;
+  font-size: clamp(1rem, 1.4vw, 1.18rem);
   color: var(--ink-soft);
   line-height: 1.75;
-  max-width: 540px;
+  max-width: 560px;
 }
 .cta-row {
   display: flex;
@@ -381,15 +437,15 @@ p:last-child { margin-bottom: 0; }
   margin-top: .4rem;
 }
 
-/* Hero stats — GUARDBASE 데이터시트 톤 */
+/* Hero stats */
 .hero-stats {
   margin: 0;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 1px;
-  background: var(--line);
+  gap: 0;
+  background: var(--bg-card);
   border: 1px solid var(--line-strong);
-  border-radius: var(--r-lg);
+  border-radius: var(--r-card);
   overflow: hidden;
   position: relative;
 }
@@ -399,7 +455,7 @@ p:last-child { margin-bottom: 0; }
   top: -10px;
   left: 16px;
   background: var(--bg);
-  padding: 0 .5rem;
+  padding: 0 .55rem;
   font-family: var(--font-mono);
   font-size: 0.66rem;
   letter-spacing: 0.18em;
@@ -414,8 +470,12 @@ p:last-child { margin-bottom: 0; }
   gap: .5rem;
   transition: background .2s;
   position: relative;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
-.stat:hover { background: var(--bg-card-2); }
+.stat:nth-child(2n) { border-right: none; }
+.stat:nth-last-child(-n+2) { border-bottom: none; }
+.stat:hover { background: var(--bg-soft); }
 .stat-num {
   font-family: var(--font-en);
   font-weight: 900;
@@ -440,8 +500,7 @@ p:last-child { margin-bottom: 0; }
 }
 .stat-label strong { color: var(--accent); font-weight: 600; }
 .stat-accent {
-  background: var(--bg-card-2);
-  position: relative;
+  background: var(--bg-soft);
 }
 .stat-accent::before {
   content: "";
@@ -450,9 +509,7 @@ p:last-child { margin-bottom: 0; }
   width: 2px; height: 100%;
   background: var(--accent);
 }
-.stat-accent .stat-num {
-  color: var(--accent-bright);
-}
+.stat-accent .stat-num { color: var(--accent-deep); }
 
 /* ─── About / Pillars ─── */
 .grid-3 {
@@ -472,7 +529,7 @@ p:last-child { margin-bottom: 0; }
 .pillar:hover {
   border-color: var(--accent-line);
   transform: translateY(-2px);
-  box-shadow: 0 0 0 1px var(--accent-line), 0 8px 24px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 24px rgba(10, 20, 36, 0.06);
 }
 .pillar-tag {
   display: inline-block;
@@ -486,6 +543,7 @@ p:last-child { margin-bottom: 0; }
   border: 1px solid var(--line-strong);
   border-radius: 3px;
   margin-bottom: 1.2rem;
+  background: var(--bg-card);
 }
 .pillar-tag-ko {
   font-family: var(--font-kr);
@@ -498,13 +556,13 @@ p:last-child { margin-bottom: 0; }
 .pillar h3 { font-size: 1.22rem; margin-bottom: .7rem; }
 .pillar p { color: var(--ink-soft); font-size: 0.95rem; line-height: 1.65; }
 .pillar-accent {
-  background: var(--bg-card-2);
-  border-color: var(--accent-line);
+  background: var(--bg-card);
+  border-color: var(--accent);
 }
 .pillar-accent .pillar-tag {
-  color: var(--accent);
-  border-color: var(--accent-line);
-  background: var(--accent-soft);
+  color: #FFFFFF;
+  border-color: var(--accent);
+  background: var(--accent);
 }
 
 /* ─── Programs (Cards) ─── */
@@ -520,7 +578,7 @@ p:last-child { margin-bottom: 0; }
 .card:hover {
   border-color: var(--accent-line);
   transform: translateY(-2px);
-  box-shadow: 0 0 0 1px var(--accent-line), 0 8px 24px rgba(0,0,0,0.3);
+  box-shadow: 0 8px 24px rgba(10, 20, 36, 0.06);
 }
 
 .card-icon {
@@ -550,30 +608,25 @@ p:last-child { margin-bottom: 0; }
   letter-spacing: 0.02em;
   width: fit-content;
 }
-.card:hover .card-link { color: var(--accent-bright); }
+.card:hover .card-link { color: var(--accent-deep); }
 
 /* ─── Logo Wall ─── */
 .logos-section {
-  background: var(--bg-soft);
+  background: var(--bg-card);
   margin: 0 calc(-1 * var(--gutter));
   padding: clamp(4rem, 8vw, 6rem) var(--gutter);
   border-top: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
-  background-image:
-    linear-gradient(rgba(255, 255, 255, 0.018) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.018) 1px, transparent 1px);
-  background-size: 32px 32px;
 }
 .logo-grid {
   display: grid;
   grid-template-columns: repeat(5, minmax(0, 1fr));
-  gap: 1px;
+  gap: 0;
   list-style: none;
   padding: 0;
   margin: 0 auto;
   max-width: 1080px;
-  background: var(--line);
-  border: 1px solid var(--line-strong);
+  border: 1px solid var(--line);
   border-radius: var(--r-card);
   overflow: hidden;
 }
@@ -583,18 +636,23 @@ p:last-child { margin-bottom: 0; }
   justify-content: center;
   height: 100px;
   padding: 1rem 1.25rem;
-  background: #FFFFFF;
+  background: var(--bg-card);
   transition: background .2s, transform .2s;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
 }
+.logo-grid li:nth-child(5n) { border-right: none; }
+.logo-grid li:nth-last-child(-n+5) { border-bottom: none; }
 .logo-grid img {
   max-height: 56px;
   max-width: 100%;
   width: auto;
   object-fit: contain;
   filter: grayscale(100%);
-  opacity: 0.78;
+  opacity: 0.62;
   transition: filter .25s, opacity .25s, transform .25s;
 }
+.logo-grid li:hover { background: var(--bg-soft); }
 .logo-grid li:hover img { filter: grayscale(0); opacity: 1; transform: scale(1.04); }
 .logo-foot {
   text-align: center;
@@ -646,19 +704,18 @@ p:last-child { margin-bottom: 0; }
   margin-top: 2.4rem;
 }
 
-/* ─── Demo List (Tools 격하 — 작은 인라인 리스트) ─── */
+/* ─── Demo List (Tools 격하) ─── */
 .demo-list {
   list-style: none;
   padding: 0;
   margin: 0;
-  background: var(--line);
-  border: 1px solid var(--line-strong);
+  border: 1px solid var(--line);
   border-radius: var(--r-card);
   overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  gap: 1px;
+  background: var(--bg-card);
 }
+.demo-list li { border-bottom: 1px solid var(--line); }
+.demo-list li:last-child { border-bottom: none; }
 .demo-list li a {
   display: grid;
   grid-template-columns: 110px 1fr 1.6fr auto;
@@ -669,9 +726,7 @@ p:last-child { margin-bottom: 0; }
   transition: background .15s, color .15s;
   color: var(--ink);
 }
-.demo-list li a:hover {
-  background: var(--bg-card-2);
-}
+.demo-list li a:hover { background: var(--bg-soft); }
 .demo-list li a:hover .demo-name { color: var(--accent); }
 .demo-list li a:hover .demo-go { color: var(--accent); }
 
@@ -723,7 +778,7 @@ p:last-child { margin-bottom: 0; }
   border-radius: var(--r-card);
   object-fit: cover;
   background: var(--bg-card);
-  border: 1px solid var(--line-strong);
+  border: 1px solid var(--line);
 }
 .photo-placeholder {
   display: flex;
@@ -744,11 +799,11 @@ p:last-child { margin-bottom: 0; }
 .profile-list {
   display: grid;
   gap: 0;
-  margin: 0;
+  margin: 0 0 2rem;
   border: 1px solid var(--line);
   border-radius: var(--r-card);
   overflow: hidden;
-  background: var(--line);
+  background: var(--bg-card);
 }
 .profile-list > div {
   display: grid;
@@ -756,8 +811,9 @@ p:last-child { margin-bottom: 0; }
   gap: 1.4rem;
   padding: 1.1rem 1.4rem;
   background: var(--bg-card);
-  border: none;
+  border-bottom: 1px solid var(--line);
 }
+.profile-list > div:last-child { border-bottom: none; }
 .profile-list dt {
   font-family: var(--font-mono);
   font-size: 0.7rem;
@@ -783,15 +839,17 @@ p:last-child { margin-bottom: 0; }
   font-size: 0.85em;
   margin-right: .5rem;
 }
+.profile-list-compact > div { padding: .9rem 1.4rem; }
+.profile-cta { margin-top: 1rem; }
 
-/* ─── Contact ─── */
+/* ─── Contact (다크 카드 — 라이트 메인 + 다크 강조 = GUARDBASE 패턴) ─── */
 .contact-card {
-  background: var(--bg-card);
+  background: var(--bg-dark);
   background-image:
-    linear-gradient(rgba(255, 255, 255, 0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.025) 1px, transparent 1px);
+    linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
   background-size: 32px 32px;
-  border: 1px solid var(--line-strong);
+  border: 1px solid var(--bg-dark-2);
   border-radius: var(--r-lg);
   padding: clamp(2.5rem, 6vw, 4.5rem);
   text-align: center;
@@ -807,43 +865,50 @@ p:last-child { margin-bottom: 0; }
   background: radial-gradient(circle at center, var(--accent-glow), transparent 65%);
   pointer-events: none;
 }
-.contact-card .eyebrow { color: var(--accent); justify-content: center; }
+.contact-card .eyebrow { color: #fff; justify-content: center; }
+.contact-card .eyebrow::before { background: var(--accent); }
+.contact-card .sec-num { color: rgba(255,255,255,0.7); border-color: rgba(255,255,255,0.18); }
 .contact-card h2 {
-  color: var(--ink);
+  color: #fff;
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
 }
 .contact-lead {
-  color: var(--ink-soft);
+  color: rgba(255,255,255,0.78);
   font-size: 1.05rem;
   margin: 1rem auto 2.2rem;
   max-width: 540px;
   line-height: 1.7;
 }
+.contact-card .btn-accent { color: #FFFFFF; }
+.contact-card .btn-accent:hover { background: var(--accent-bright); color: var(--ink); }
 .contact-meta {
   margin-top: 2rem;
   font-size: 0.9rem;
-  color: var(--muted);
+  color: rgba(255,255,255,0.6);
   font-family: var(--font-mono);
   letter-spacing: 0.02em;
 }
 .contact-meta .sep { margin: 0 .55rem; opacity: 0.5; }
 .contact-meta a {
-  color: var(--ink-soft);
-  border-bottom: 1px solid var(--line-strong);
+  color: rgba(255,255,255,0.85);
+  border-bottom: 1px solid rgba(255,255,255,0.2);
   padding-bottom: 1px;
   transition: color .2s, border-color .2s;
 }
-.contact-meta a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.contact-meta a:hover { color: var(--accent-bright); border-bottom-color: var(--accent); }
 
 /* ─── Footer ─── */
 .site-footer {
-  max-width: var(--max-w);
-  margin: 4rem auto 0;
+  background: var(--bg-dark);
+  color: rgba(255,255,255,0.7);
+  margin-top: 4rem;
   padding: 3rem var(--gutter) 3rem;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
+}
+.site-footer .footer-inner {
+  max-width: var(--max-w);
+  margin: 0 auto;
 }
 .footer-top {
   display: flex;
@@ -853,10 +918,12 @@ p:last-child { margin-bottom: 0; }
   flex-wrap: wrap;
   margin-bottom: 2.2rem;
 }
+.site-footer .brand-name { color: #fff; }
+.site-footer .brand-sub { color: rgba(255,255,255,0.55); }
 .footer-tag {
   font-family: var(--font-mono);
   font-size: 0.78rem;
-  color: var(--muted);
+  color: rgba(255,255,255,0.55);
   margin: 0;
   letter-spacing: 0.08em;
   text-transform: uppercase;
@@ -871,25 +938,96 @@ p:last-child { margin-bottom: 0; }
 }
 .footer-links a {
   font-size: 0.9rem;
-  color: var(--ink-soft);
+  color: rgba(255,255,255,0.78);
   border-bottom: 1px solid transparent;
   padding-bottom: 1px;
   transition: color .2s, border-color .2s;
   font-family: var(--font-mono);
   letter-spacing: 0.01em;
 }
-.footer-links a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.footer-links a:hover { color: var(--accent-bright); border-bottom-color: var(--accent); }
 .footer-meta {
   margin: 0 0 .4rem;
   font-size: 0.84rem;
-  color: var(--muted);
+  color: rgba(255,255,255,0.55);
 }
 .footer-copy {
   margin: 0;
   font-size: 0.78rem;
-  color: var(--muted-soft);
+  color: rgba(255,255,255,0.42);
   font-family: var(--font-mono);
   letter-spacing: 0.02em;
+}
+
+/* ─── Profile Page (profile.html) ─── */
+.page-hero {
+  padding: clamp(3.5rem, 7vw, 6rem) 0 clamp(2rem, 4vw, 3rem);
+  border-bottom: 1px solid var(--line);
+  margin-bottom: clamp(3rem, 6vw, 5rem);
+  position: relative;
+}
+.page-hero::before, .page-hero::after {
+  content: "+";
+  position: absolute;
+  font-family: var(--font-mono);
+  font-size: 1.2rem;
+  color: var(--line-strong);
+  font-weight: 300;
+  line-height: 1;
+}
+.page-hero::before { bottom: -10px; left: -6px; }
+.page-hero::after  { bottom: -10px; right: -6px; }
+
+.page-hero .crumb {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--muted);
+  margin-bottom: 1.2rem;
+  letter-spacing: 0.04em;
+}
+.page-hero .crumb a { border-bottom: 1px solid var(--line-strong); padding-bottom: 1px; }
+.page-hero .crumb a:hover { color: var(--accent); border-bottom-color: var(--accent); }
+
+.career-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border: 1px solid var(--line);
+  border-radius: var(--r-card);
+  overflow: hidden;
+  background: var(--bg-card);
+}
+.career-list li {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 1.4rem;
+  padding: 1rem 1.4rem;
+  border-bottom: 1px solid var(--line);
+}
+.career-list li:last-child { border-bottom: none; }
+.career-list .career-cat {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 4px;
+}
+.career-list .career-body strong {
+  color: var(--ink);
+  font-weight: 700;
+  display: block;
+  margin-bottom: .15rem;
+  letter-spacing: -0.015em;
+}
+.career-list .career-body span {
+  color: var(--muted);
+  font-size: 0.9rem;
+  font-family: var(--font-mono);
 }
 
 /* ─── Responsive ─── */
@@ -897,8 +1035,11 @@ p:last-child { margin-bottom: 0; }
   .grid-resources { grid-template-columns: repeat(3, minmax(0, 1fr)); }
   .grid-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .logo-grid { grid-template-columns: repeat(4, 1fr); }
+  .logo-grid li:nth-child(5n) { border-right: 1px solid var(--line); }
+  .logo-grid li:nth-child(4n) { border-right: none; }
   .hero { grid-template-columns: 1fr; gap: 2.5rem; padding-top: 2rem; }
   .hero-stats { max-width: 540px; }
+  .hero-meta { position: static; flex-direction: row; margin-bottom: 1.2rem; }
   .profile-grid { grid-template-columns: minmax(180px, 240px) 1fr; }
   .demo-list li a {
     grid-template-columns: 110px 1fr auto;
@@ -913,12 +1054,14 @@ p:last-child { margin-bottom: 0; }
   .nav-toggle { display: block; }
   .mobile-nav:not([hidden]) { display: flex; }
 
-  .hero h1 { font-size: clamp(2rem, 8vw, 3rem); }
+  .hero h1 { font-size: clamp(2rem, 9vw, 3rem); }
   .hero-stats { grid-template-columns: 1fr 1fr; }
 
   .grid-resources, .grid-2 { grid-template-columns: 1fr; }
   .grid-3 { grid-template-columns: 1fr; }
   .logo-grid { grid-template-columns: repeat(3, 1fr); }
+  .logo-grid li:nth-child(4n) { border-right: 1px solid var(--line); }
+  .logo-grid li:nth-child(3n) { border-right: none; }
   .logo-grid li { height: 80px; padding: .8rem 1rem; }
 
   .profile-grid {
@@ -939,15 +1082,18 @@ p:last-child { margin-bottom: 0; }
     padding: 1rem 1.2rem;
   }
 
+  .career-list li { grid-template-columns: 1fr; gap: .35rem; padding: 1rem 1.2rem; }
+
   .footer-top { flex-direction: column; align-items: flex-start; }
 }
 
 @media (max-width: 420px) {
   .logo-grid { grid-template-columns: repeat(2, 1fr); }
+  .logo-grid li:nth-child(3n) { border-right: 1px solid var(--line); }
+  .logo-grid li:nth-child(2n) { border-right: none; }
   .brand-sub { display: none; }
 }
 
-/* ─── Reduced motion ─── */
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
   html { scroll-behavior: auto; }
