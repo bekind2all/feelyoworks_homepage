@@ -1,0 +1,22 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node / build artifacts (혹시 추후 도구 도입 시)
+node_modules/
+dist/
+.env
+.env.*
+
+# 작업 자료 (배포 대상 아님 — 큰 용량/원본/PDF/PRD 등)
+이미지_정리/
+로고 모음/
+profile-candidates/
+extracted-starter/
+docs/
+*.pdf
+*.zip
+Feelyoworks Homepage.html
+Feelyoworks_PRD.md
+Feelyoworks_PRD_v2.md
+feelyoworks-inquiry-form.gs
