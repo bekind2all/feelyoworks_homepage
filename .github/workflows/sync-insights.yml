@@ -1,0 +1,43 @@
+name: Sync Insights from WordPress
+
+on:
+  schedule:
+    # 매 6시간마다 (UTC 기준 0/6/12/18시) — 발행 후 최대 6시간 내 자동 노출
+    - cron: "0 */6 * * *"
+  push:
+    branches: [main]
+    paths:
+      - "scripts/fetch-insights.py"
+      - ".github/workflows/sync-insights.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Fetch RSS feed → insights.json
+        run: python scripts/fetch-insights.py
+
+      - name: Commit if changed
+        run: |
+          if git diff --quiet -- data/insights.json; then
+            echo "No content changes — skipping commit."
+            exit 0
+          fi
+          git config user.name "feelyo-sync-bot"
+          git config user.email "bot@feelyoworks.com"
+          git add data/insights.json
+          git commit -m "chore: sync WordPress insights ($(date -u '+%Y-%m-%d %H:%MZ'))"
+          git push

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FAFAFA">
+  <title>Insights · 오늘AI 주간 뉴스레터 | Feelyoworks</title>
+  <meta name="description" content="AI 최신 소식과 일하는 사람의 활용 팁. 누구나 따라 해볼 수 있는 일상의 예시로 풀어드리는 주간 뉴스레터, 오늘AI 아카이브.">
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230A1424'/%3E%3Cpath d='M22 44V20h22M22 32h16' stroke='white' stroke-width='4.5' stroke-linecap='round' fill='none'/%3E%3Ccircle cx='48' cy='18' r='3.2' fill='%230BB597'/%3E%3C/svg%3E">
+
+  <link rel="preconnect" href="https://cdn.jsdelivr.net">
+  <link rel="stylesheet" as="style" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문으로 건너뛰기</a>
+
+  <header class="site-header" aria-label="사이트 헤더">
+    <a class="brand" href="/" aria-label="Feelyoworks 홈">
+      <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+        <rect width="40" height="40" rx="6" fill="#0A1424"/>
+        <path d="M11 27V13h14M11 20h10" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+        <circle cx="29" cy="11.5" r="2.1" fill="#0BB597"/>
+      </svg>
+      <span class="brand-text">
+        <span class="brand-name">Feelyoworks</span>
+        <span class="brand-sub">미래가치개발원</span>
+      </span>
+    </a>
+
+    <nav class="nav" aria-label="주 메뉴">
+      <a href="/#about">About</a>
+      <a href="/#programs">Programs</a>
+      <a href="/#tools">Tools</a>
+      <a href="/insights.html" aria-current="page">Insights</a>
+      <a href="/#resources">Resources</a>
+      <a href="/profile.html">Profile</a>
+      <a href="/#contact">Contact</a>
+    </nav>
+
+    <a class="btn btn-accent btn-sm header-cta" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">교육 문의</a>
+
+    <button class="nav-toggle" type="button" aria-label="메뉴 열기" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <nav id="mobile-nav" class="mobile-nav" aria-label="모바일 메뉴" hidden>
+    <a href="/#about">About</a>
+    <a href="/#programs">Programs</a>
+    <a href="/#tools">Tools</a>
+    <a href="/insights.html">Insights</a>
+    <a href="/#resources">Resources</a>
+    <a href="/profile.html">Profile</a>
+    <a href="/#contact">Contact</a>
+    <a class="btn btn-accent" href="https://forms.gle/AAb5JKXigfvqZou86" target="_blank" rel="noopener">교육 문의</a>
+  </nav>
+
+  <main id="main">
+
+    <section class="page-hero">
+      <p class="crumb"><a href="/">← Feelyoworks</a> <span>/</span> <span>Insights</span></p>
+      <p class="eyebrow"><span class="sec-num">INSIGHTS</span> 주간 뉴스레터</p>
+      <h1>오늘<span class="hl">AI</span></h1>
+      <p class="lede" style="margin-top:1rem; max-width:680px;">
+        AI 최신 소식과 실무에서 바로 써보는 활용 팁. 누구나 따라 해볼 수 있는 일상의 예시로 풀어드립니다.<br>
+        매주 한 번, 짧고 진하게 보내드립니다.
+      </p>
+      <div class="cta-row" style="margin-top:1.4rem;">
+        <a class="btn btn-accent" href="https://feelyoworks.wordpress.com/" target="_blank" rel="noopener">WordPress에서 구독</a>
+        <a class="btn btn-ghost" href="https://www.youtube.com/@feelyoworks" target="_blank" rel="noopener">YouTube · 오늘AI</a>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0; border-top:none;">
+      <div id="insights-archive" class="insights-archive" data-state="loading" aria-live="polite">
+        <p class="insights-empty" style="grid-column: 1/-1;">아카이브 불러오는 중…</p>
+      </div>
+
+      <p class="logo-foot" style="margin-top: 2.2rem;">
+        매주 1회 발행 · 최근 30편까지 노출됩니다 · <a href="https://feelyoworks.wordpress.com/feed/" style="color: var(--accent); border-bottom: 1px solid var(--accent-line);" target="_blank" rel="noopener">RSS</a>
+      </p>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner">
+    <div class="footer-top">
+      <a class="brand" href="/" aria-label="Feelyoworks 홈">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true">
+          <rect width="40" height="40" rx="6" fill="#0A1424"/>
+          <path d="M11 27V13h14M11 20h10" stroke="#FFFFFF" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+          <circle cx="29" cy="11.5" r="2.1" fill="#0BB597"/>
+        </svg>
+        <span class="brand-text">
+          <span class="brand-name">Feelyoworks</span>
+          <span class="brand-sub">미래가치개발원</span>
+        </span>
+      </a>
+      <p class="footer-tag">AI 실무 교육 · 도입 코칭 · 정책 자문</p>
+    </div>
+
+    <ul class="footer-links" role="list">
+      <li><a href="https://www.youtube.com/@feelyoworks" target="_blank" rel="noopener">YouTube · 오늘AI</a></li>
+      <li><a href="https://feelyoworks.wordpress.com/" target="_blank" rel="noopener">Newsletter</a></li>
+      <li><a href="https://blog.naver.com/chaeum_coach" target="_blank" rel="noopener">Blog</a></li>
+      <li><a href="https://github.com/bekind2all/feelyoworks-toolkit" target="_blank" rel="noopener">GitHub</a></li>
+      <li><a href="mailto:hyjune0314@naver.com">hyjune0314@naver.com</a></li>
+    </ul>
+
+    <p class="footer-meta">
+      한국미래AI협회 부회장 · 중소상공인AI지원협회 부회장 · KPC 전문코치
+    </p>
+    <p class="footer-copy">© <span id="year"></span> Feelyoworks · 미래가치개발원. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const toggle = document.querySelector('.nav-toggle');
+    const mobileNav = document.getElementById('mobile-nav');
+    toggle.addEventListener('click', () => {
+      const open = toggle.getAttribute('aria-expanded') === 'true';
+      toggle.setAttribute('aria-expanded', String(!open));
+      if (open) mobileNav.setAttribute('hidden','');
+      else mobileNav.removeAttribute('hidden');
+    });
+    mobileNav.addEventListener('click', e => {
+      if (e.target.tagName === 'A') {
+        toggle.setAttribute('aria-expanded','false');
+        mobileNav.setAttribute('hidden','');
+      }
+    });
+
+    // ─── Insights Archive ───
+    (function () {
+      const grid = document.getElementById('insights-archive');
+      if (!grid) return;
+      const fmtDate = (s) => {
+        if (!s) return '';
+        const d = new Date(s);
+        if (isNaN(d)) return s;
+        return d.toLocaleDateString('ko-KR', { year: 'numeric', month: 'long', day: 'numeric' });
+      };
+      const esc = (s) => String(s || '').replace(/[&<>"']/g, (c) => ({
+        '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
+      }[c]));
+
+      fetch('/data/insights.json', { cache: 'no-store' })
+        .then((r) => r.ok ? r.json() : Promise.reject(new Error('feed unavailable')))
+        .then((data) => {
+          const items = (data && data.items) || [];
+          if (!items.length) {
+            grid.dataset.state = 'empty';
+            grid.innerHTML = '<p class="insights-empty" style="grid-column:1/-1;">아직 발행된 글이 없어요. 곧 첫 번째 뉴스레터를 보내드릴게요.</p>';
+            return;
+          }
+          grid.dataset.state = 'ready';
+          grid.innerHTML = items.map((it) => `
+            <a class="insights-card" href="${esc(it.link)}" target="_blank" rel="noopener">
+              ${it.image ? `<div class="insights-card-img"><img src="${esc(it.image)}" alt="" loading="lazy" referrerpolicy="no-referrer"></div>` : ''}
+              <div class="insights-card-body">
+                <span class="insights-date">${esc(fmtDate(it.date))}</span>
+                <h3>${esc(it.title)}</h3>
+                <p>${esc(it.summary)}</p>
+                <span class="insights-go">읽으러 가기 ↗</span>
+              </div>
+            </a>`).join('');
+        })
+        .catch((err) => {
+          console.warn('[insights]', err);
+          grid.dataset.state = 'error';
+          grid.innerHTML = '<p class="insights-empty" style="grid-column:1/-1;">아카이브를 잠시 불러오지 못했어요. <a href="https://feelyoworks.wordpress.com/" target="_blank" rel="noopener">WordPress에서 보기 →</a></p>';
+        });
+    })();
+  </script>
+</body>
+</html>
