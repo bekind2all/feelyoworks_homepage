@@ -131,7 +131,9 @@ a:focus-visible {
 .brand-mark {
   width: 32px; height: 32px;
   flex-shrink: 0;
-  border-radius: var(--r-nav);
+  border-radius: 8px;
+  object-fit: cover;
+  display: block;
 }
 .brand-text {
   display: inline-flex;
