@@ -700,8 +700,8 @@ p:last-child { margin-bottom: 0; }
 .demo-list li:last-child { border-bottom: none; }
 .demo-list li a {
   display: grid;
-  grid-template-columns: 110px 1fr 1.6fr auto;
-  gap: 24px;
+  grid-template-columns: 150px 1fr 1.4fr auto;
+  gap: 20px;
   align-items: center;
   padding: 18px 24px;
   background: var(--color-canvas-white);
@@ -1268,7 +1268,7 @@ p:last-child { margin-bottom: 0; }
   .hero-meta { position: static; margin-bottom: 16px; }
   .profile-grid { grid-template-columns: minmax(180px, 240px) 1fr; }
   .demo-list li a {
-    grid-template-columns: 110px 1fr auto;
+    grid-template-columns: 150px 1fr auto;
     gap: 16px;
   }
   .demo-desc { display: none; }
