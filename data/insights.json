@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-05-08T02:40:55+00:00",
+  "updated": "2026-05-08T07:25:29+00:00",
   "items": [
+    {
+      "title": "오늘AI News 2026.05.08",
+      "link": "https://feelyoworks.wordpress.com/2026/05/08/today-ai-news-2026-05-07/",
+      "date": "2026-05-08",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "AI인프라"
+      ],
+      "summary": "TODAY AI 오늘AI News 2026.05.08. 금요일 | 2026.05.07 해외 AI 이슈 정리 혹시 요즘 AI 뉴스를 보면 모델 이름은 계속 나오는데, 정작 뭐가 중요한지 잘 안 잡힐 때가 있나요? 오늘은 조금 달랐습니다. 새 모델 성능보다 그 뒤에서 돌아가는 전기, GPU, 음성 인터페이스, 그리고 오픈소스 보안이 더 크게 보였거든요. 쉽게 말해 AI가 머리싸움만 하는 시기를…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-blueprint-compute.png"
+    },
     {
       "title": "AI에게 어떻게 말해야 하나 — 연구로 검증한 AI 대화법",
       "link": "https://feelyoworks.wordpress.com/2026/03/27/ai%ec%97%90%ea%b2%8c-%ec%96%b4%eb%96%bb%ea%b2%8c-%eb%a7%90%ed%95%b4%ec%95%bc-%ed%95%98%eb%82%98-%ec%97%b0%ea%b5%ac%eb%a1%9c-%ea%b2%80%ec%a6%9d%ed%95%9c-ai-%eb%8c%80%ed%99%94%eb%b2%95/",
