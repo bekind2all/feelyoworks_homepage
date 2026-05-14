@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-05-14T14:02:20+00:00",
+  "updated": "2026-05-14T19:42:08+00:00",
   "items": [
+    {
+      "title": "AI는 이제 앱이 아니라 일하는 구조가 되고 있어요",
+      "link": "https://feelyoworks.wordpress.com/2026/05/15/today-ai-news-2026-05-13/",
+      "date": "2026-05-14",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "Anthropic"
+      ],
+      "summary": "TODAY AI 오늘AI News 2026.05.14 | 2026.05.13 해외 AI 뉴스 정리 오늘은 뉴스를 보면서 이런 생각이 먼저 들었어요. AI 경쟁이 “누가 더 똑똑한 모델을 냈나”에서 “그 AI가 어디에 들어가서, 어떤 권한으로, 어떤 일을 대신하나”로 넘어가고 있다는 것. OpenAI는 공급망 공격 이후 앱 인증서를 바꾸고 있고, Notion은 업무 공간 안으로 여러 에이전트를…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-logo-openai-supply-chain.png"
+    },
     {
       "title": "AI 시대의 경쟁력은 모델 점수보다 조직도와 검수 방식에서 갈려요",
       "link": "https://feelyoworks.wordpress.com/2026/05/10/today-ai-news-2026-05-09/",
@@ -97,16 +109,6 @@
       ],
       "summary": "구글 AI 스튜디오(Google AI Studio)란? 구글이 만든 무료 AI 앱 개발 도구예요. 코드를 몰라도 프롬프트(말)로 앱을 만들 수 있어요. 2026년 3월 19일 업데이트로, 데이터 저장·로그인·실제 배포까지 가능한 풀스택 개발 환경으로 바뀌었습니다. 혹시 이런 경험 있으세요? MBTI 테스트 하고 나서 “이거 저장해두고 싶은데…” 하고 스크린샷 찍으셨던 적. 아니면 설문 결과…",
       "image": "https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f9ee.png"
-    },
-    {
-      "title": "스마트폰 하나로 문서 스캔 끝! 구글 드라이브 앱📱",
-      "link": "https://feelyoworks.wordpress.com/2026/03/23/%f0%9f%93%b1%ec%8a%a4%eb%a7%88%ed%8a%b8%ed%8f%b0-%ed%95%98%eb%82%98%eb%a1%9c-%eb%ac%b8%ec%84%9c-%ec%8a%a4%ec%ba%94-%eb%81%9d-%ea%b5%ac%ea%b8%80-%eb%93%9c%eb%9d%bc%ec%9d%b4%eb%b8%8c-%ec%95%b1/",
-      "date": "2026-03-23",
-      "categories": [
-        "AI이야기"
-      ],
-      "summary": "복합기 앞에 줄 서기 싫으셨던 적 있으신가요? “스캔한 파일 어디다 저장했더라…” 이런 경험도요. 저도 강의 자료 준비할 때 종이 문서를 디지털로 옮기는 게 꽤 번거로웠어요. 그런데 구글 드라이브 앱 스캔 기능 이 2025년 하반기부터 조용히, 꽤 많이 좋아졌더라고요. 한국에는 2025년 12월부터 순차 배포되기 시작한 기능이라 아직 모르시는 분이 많아요. 별도 앱도 월정액도 필요 없어요.…",
-      "image": "https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f4f2.png"
     }
   ]
 }
