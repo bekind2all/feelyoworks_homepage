@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-05-16T07:59:12+00:00",
+  "updated": "2026-05-16T13:15:04+00:00",
   "items": [
+    {
+      "title": "AI는 이제 생활의 운영판이 되고 있어요",
+      "link": "https://feelyoworks.wordpress.com/2026/05/16/today-ai-news-2026-05-15/",
+      "date": "2026-05-16",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "Anthropic"
+      ],
+      "summary": "TODAY AI 오늘AI News 2026.05.16 | 2026.05.15 해외 AI 뉴스 정리 오늘은 화려한 모델 발표보다 더 조용하지만 중요한 변화가 보였어요. AI가 이제 “질문하면 답해주는 창”을 넘어서, 우리가 돈을 보고, 학교 정책을 세우고, 고객센터를 운영하는 방식 안으로 들어오고 있습니다. 쉽게 말하면 이렇습니다. 예전에는 AI가 옆자리 조언자였다면, 이제는 책상 위 운영판에…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-editorial-openai-finance-symbol-1.png"
+    },
     {
       "title": "AI는 이제 앱이 아니라 일하는 구조가 되고 있어요",
       "link": "https://feelyoworks.wordpress.com/2026/05/15/today-ai-news-2026-05-13/",
@@ -99,16 +111,6 @@
       ],
       "summary": "2026년 3월 25일 확인 기준 | AI 활용법 강사 조은이 저 오늘 깜짝 놀랐어요. 챗GPT 화면을 열었더니 이런 문구가 떴거든요. “이제 ChatGPT가 한글(hwp) 문서를 이해할 수 있습니다. 문서를 업로드하여 내용을 분석, 요약하거나 궁금한 점을 질문하세요.” 순간 “이게 진짜야?” 싶어서 여러 번 다시 해봤어요. 다 됩니다. 제대로 읽고 분석해요. 한국 직장인한테 이게 왜 이렇게…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/03/ec8aa4ed81aceba6b0ec83b7-2026-03-25-092736.png?w=470"
-    },
-    {
-      "title": "[구글 AI 스튜디오 업데이트] 이제 진짜 앱이 만들어집니다 — 데이터베이스까지",
-      "link": "https://feelyoworks.wordpress.com/2026/03/24/%ea%b5%ac%ea%b8%80-ai-%ec%8a%a4%ed%8a%9c%eb%94%94%ec%98%a4-%ec%97%85%eb%8d%b0%ec%9d%b4%ed%8a%b8-%ec%9d%b4%ec%a0%9c-%ec%a7%84%ec%a7%9c-%ec%95%b1%ec%9d%b4-%eb%a7%8c%eb%93%a4%ec%96%b4%ec%a7%91%eb%8b%88/",
-      "date": "2026-03-23",
-      "categories": [
-        "AI이야기"
-      ],
-      "summary": "구글 AI 스튜디오(Google AI Studio)란? 구글이 만든 무료 AI 앱 개발 도구예요. 코드를 몰라도 프롬프트(말)로 앱을 만들 수 있어요. 2026년 3월 19일 업데이트로, 데이터 저장·로그인·실제 배포까지 가능한 풀스택 개발 환경으로 바뀌었습니다. 혹시 이런 경험 있으세요? MBTI 테스트 하고 나서 “이거 저장해두고 싶은데…” 하고 스크린샷 찍으셨던 적. 아니면 설문 결과…",
-      "image": "https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/72x72/1f9ee.png"
     }
   ]
 }
