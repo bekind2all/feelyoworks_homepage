@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-05-17T13:13:10+00:00",
+  "updated": "2026-05-17T19:04:10+00:00",
   "items": [
+    {
+      "title": "ChatGPT는 국민 교육으로, AI는 논문과 결제창으로 들어갔어요",
+      "link": "https://feelyoworks.wordpress.com/2026/05/17/today-ai-news-2026-05-16/",
+      "date": "2026-05-17",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "Anthropic"
+      ],
+      "summary": "TODAY AI 오늘AI News 2026.05.17 | 2026.05.16 해외 AI 뉴스 정리 오늘은 화려한 모델 발표보다, AI가 들어가는 자리 자체가 바뀌고 있다는 뉴스가 많았습니다. ChatGPT는 한 나라의 성인 시민에게 제공되는 교육 인프라가 됐고, arXiv는 AI가 만든 논문을 어떻게 다룰지 선을 그었고, Stripe는 AI 에이전트가 실제로 결제하는 상황을 이야기했습니다.…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-logo-openai-malta-ai-access.png"
+    },
     {
       "title": "AI가 이제 통장과 교실, 고객센터까지 들어왔어요",
       "link": "https://feelyoworks.wordpress.com/2026/05/16/today-ai-news-2026-05-15/",
@@ -101,16 +113,6 @@
       ],
       "summary": "컨텍스트 윈도우·업로드 용량·요금제 — 2026년 3월 최신 비교 수업하다 보면 꼭 나오는 질문이 있어요. “강사님, 챗GPT는 파일을 크게 올릴 수 있다던데 클로드는 30MB밖에 안 되잖아요. 그럼 클로드가 더 못한 건가요?” 정말 좋은 질문이에요. 그리고 많은 분들이 실제로 오해하고 있는 부분이기도 해요. 오늘은 이 질문에서 출발해서 챗GPT · 제미나이 · 클로드를 제대로 비교해드릴게요…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/03/image-38.png?w=891"
-    },
-    {
-      "title": "드디어! 챗GPT가 한글(hwp) 파일을 읽기 시작했습니다 (26년 3월 25일 확인)",
-      "link": "https://feelyoworks.wordpress.com/2026/03/25/%eb%93%9c%eb%94%94%ec%96%b4-%ec%b1%97gpt%ea%b0%80-%ed%95%9c%ea%b8%80hwp-%ed%8c%8c%ec%9d%bc%ec%9d%84-%ec%9d%bd%ea%b8%b0-%ec%8b%9c%ec%9e%91%ed%96%88%ec%8a%b5%eb%8b%88%eb%8b%a4-26%eb%85%84-3%ec%9b%94/",
-      "date": "2026-03-25",
-      "categories": [
-        "AI이야기"
-      ],
-      "summary": "2026년 3월 25일 확인 기준 | AI 활용법 강사 조은이 저 오늘 깜짝 놀랐어요. 챗GPT 화면을 열었더니 이런 문구가 떴거든요. “이제 ChatGPT가 한글(hwp) 문서를 이해할 수 있습니다. 문서를 업로드하여 내용을 분석, 요약하거나 궁금한 점을 질문하세요.” 순간 “이게 진짜야?” 싶어서 여러 번 다시 해봤어요. 다 됩니다. 제대로 읽고 분석해요. 한국 직장인한테 이게 왜 이렇게…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/03/ec8aa4ed81aceba6b0ec83b7-2026-03-25-092736.png?w=470"
     }
   ]
 }
