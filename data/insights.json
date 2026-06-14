@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-06-14T03:38:49+00:00",
+  "updated": "2026-06-14T09:28:30+00:00",
   "items": [
+    {
+      "title": "Claude는 잠겼고, AI 공부는 정규과정이 됐어요",
+      "link": "https://feelyoworks.wordpress.com/2026/06/14/today-ai-news-2026-06-13/",
+      "date": "2026-06-14",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "Anthropic"
+      ],
+      "summary": "TODAY AI 오늘AI News · 2026.06.14 발행 · 2026.06.13 해외 AI 소식 오늘은 AI가 “얼마나 똑똑해졌나”보다 “누가, 어떤 기준으로, 어떻게 써야 하나”가 더 크게 보인 날이었습니다. Anthropic의 새 모델은 정부 지침 때문에 갑자기 잠겼고, OpenAI는 회사 사람들이 AI를 일상 업무에 적용하는 정규 과정을 내놨고, Anthropic은 미국인들이 AI…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-blueprint-anthropic-fable-mythos-access-lock.png"
+    },
     {
       "title": "AI가 보안팀, 내 컴퓨터, 음악 앱 안으로 들어왔어요",
       "link": "https://feelyoworks.wordpress.com/2026/05/23/today-ai-news-2026-05-22/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News 2026.05.08 금요일 | 최신 24시간 해외 AI 뉴스 혹시 요즘 AI 뉴스를 보면 새 모델 이름은 계속 나오는데, 정작 뭘 봐야 하는지는 더 헷갈릴 때 있지 않나요? 오늘은 조금 다른 그림이 보였습니다. OpenAI는 돈 버는 방식과 안전장치를 같은 날 같이 꺼냈고, Anthropic은 AI가 AI 연구를 더 빨리 밀어붙일 때 생기는 문제를 아예 공개…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-blueprint-chatgpt-ads.png"
-    },
-    {
-      "title": "AI 경쟁의 다음 병목은 모델이 아니라 전기와 목소리예요",
-      "link": "https://feelyoworks.wordpress.com/2026/05/08/today-ai-news-2026-05-07/",
-      "date": "2026-05-08",
-      "categories": [
-        "AI이야기",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News 2026.05.08. 금요일 | 2026.05.07 해외 AI 이슈 정리 혹시 요즘 AI 뉴스를 보면 모델 이름은 계속 나오는데, 정작 뭐가 중요한지 잘 안 잡힐 때가 있나요? 오늘은 조금 달랐습니다. 새 모델 성능보다 그 뒤에서 돌아가는 전기, GPU, 음성 인터페이스, 그리고 오픈소스 보안이 더 크게 보였거든요. 쉽게 말해 AI가 머리싸움만 하는 시기를…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-blueprint-compute.png"
     }
   ]
 }
