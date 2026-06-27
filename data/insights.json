@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-06-27T13:25:03+00:00",
+  "updated": "2026-06-27T19:14:51+00:00",
   "items": [
+    {
+      "title": "AI 모델 앞에 문지기가 생겼다",
+      "link": "https://feelyoworks.wordpress.com/2026/06/28/today-ai-news-2026-06-27/",
+      "date": "2026-06-27",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "Anthropic"
+      ],
+      "summary": "TODAY AI 오늘AI News · 2026.06.28 발행 · 2026.06.27 해외 AI 흐름 정리 어제 해외 AI 뉴스를 읽으면서 제일 먼저 든 생각은 이거였습니다. 이제 모델 경쟁은 성능표만 보는 일이 아니구나. 누가 먼저 열쇠를 받고, 누가 문 앞에서 기다리고, 실제 일하는 사람은 그 사이에서 어떤 기준을 세워야 하는지가 더 크게 보였습니다. 강의실에서 설명하자면, 오늘의 키워드…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn-3.png"
+    },
     {
       "title": "Claude는 잠겼고, AI 공부는 정규과정이 됐어요",
       "link": "https://feelyoworks.wordpress.com/2026/06/14/today-ai-news-2026-06-13/",
@@ -12,7 +24,7 @@
         "Anthropic"
       ],
       "summary": "TODAY AI 오늘AI News · 2026.06.14 발행 · 2026.06.13 해외 AI 소식 오늘은 AI가 “얼마나 똑똑해졌나”보다 “누가, 어떤 기준으로, 어떻게 써야 하나”가 더 크게 보인 날이었습니다. Anthropic의 새 모델은 정부 지침 때문에 갑자기 잠겼고, OpenAI는 회사 사람들이 AI를 일상 업무에 적용하는 정규 과정을 내놨고, Anthropic은 미국인들이 AI…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-blueprint-anthropic-fable-mythos-access-lock.png"
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn-2.png"
     },
     {
       "title": "AI가 보안팀, 내 컴퓨터, 음악 앱 안으로 들어왔어요",
@@ -24,7 +36,7 @@
         "Anthropic"
       ],
       "summary": "TODAY AI 오늘AI News 2026.05.23 | 2026.05.22 해외 AI 뉴스 정리 오늘 뉴스는 한 문장으로 말하면 이렇습니다. AI가 이제 “대답을 잘하는 도구”를 넘어, 보안팀의 버그 찾기, 내 컴퓨터 안의 업무 처리, 음악 앱 안의 리믹스 제작까지 들어오고 있습니다. 재미있는 건, 세 뉴스 모두 같은 질문으로 돌아온다는 점이에요. AI가 뭔가를 빨리 찾아주고 만들어주면,…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-3d-anthropic-glasswing-security.png"
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn-1.png"
     },
     {
       "title": "AI가 수학 난제를 풀자, 전기와 검증의 문제가 커졌어요",
@@ -36,7 +48,7 @@
         "Anthropic"
       ],
       "summary": "TODAY AI 오늘AI News · 2026년 5월 22일 발행 · 2026년 5월 21일 KST 기준 해외 AI 뉴스 오늘은 “AI가 또 빨라졌습니다”보다 조금 더 큰 장면이 보였습니다. 한쪽에서는 OpenAI 모델이 80년 가까이 풀리지 않던 수학 문제에 새 길을 냈다고 발표했고, 다른 한쪽에서는 Claude를 돌릴 전기와 GPU 자리를 빌리는 비용이 월 12억 5천만 달러 규모로 드러…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-blueprint-openai-geometry-proof.png"
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn.png"
     },
     {
       "title": "AI가 검색하고, 확인하고, 회사 일도 맡기 시작했어요",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News 2026.05.10 | 2026.05.09 해외 AI 뉴스 정리 어제 해외 AI 뉴스를 보고 있으면, 경쟁의 중심이 확실히 옮겨가고 있다는 느낌이 듭니다. 더 똑똑한 모델을 누가 먼저 내놓느냐보다, 그 모델을 조직 안에 어떻게 심고, 몇 개를 동시에 굴리고, 마지막에 누가 검수하느냐가 더 중요한 문제로 떠오르고 있어요. 쉽게 말해 엔진 마력 경쟁에서 정비 체…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-blueprint-ai-org-redesign-1.png"
-    },
-    {
-      "title": "ChatGPT 광고가 한국에 온다, 이제 답변의 신뢰를 읽어야 해요",
-      "link": "https://feelyoworks.wordpress.com/2026/05/08/today-ai-news-2026-05-08/",
-      "date": "2026-05-08",
-      "categories": [
-        "AI이야기",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News 2026.05.08 금요일 | 최신 24시간 해외 AI 뉴스 혹시 요즘 AI 뉴스를 보면 새 모델 이름은 계속 나오는데, 정작 뭘 봐야 하는지는 더 헷갈릴 때 있지 않나요? 오늘은 조금 다른 그림이 보였습니다. OpenAI는 돈 버는 방식과 안전장치를 같은 날 같이 꺼냈고, Anthropic은 AI가 AI 연구를 더 빨리 밀어붙일 때 생기는 문제를 아예 공개…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-blueprint-chatgpt-ads.png"
     }
   ]
 }
