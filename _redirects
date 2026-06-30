@@ -1,0 +1,6 @@
+# Canonical URL normalization for search engines.
+/profile.html  /profile   308
+/insights.html /insights  308
+
+# Prefer the apex domain if a www host is connected.
+https://www.feelyoworks.com/* https://feelyoworks.com/:splat 301

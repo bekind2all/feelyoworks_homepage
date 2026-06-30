@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-06-30T02:56:29+00:00",
+  "updated": "2026-06-30T03:40:50+00:00",
   "items": [
+    {
+      "title": "AI를 어디에 둘지 먼저 묻는 날",
+      "link": "https://feelyoworks.wordpress.com/2026/06/30/today-ai-news-2026-06-29/",
+      "date": "2026-06-30",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "Anthropic"
+      ],
+      "summary": "TODAY AI 오늘AI News · 2026.06.30 발행 · 2026.06.29 해외 AI 흐름 정리 오늘은 새 모델 이름보다, AI가 앉게 될 자리가 더 눈에 들어왔습니다. 시청 민원 창구 옆에, 병원 기록이 담긴 서랍 옆에, 음악 수익을 나누는 정산표 위에 AI가 하나씩 올라오고 있어요. 그래서 오늘 뉴스는 “AI가 또 좋아졌다”보다 “이 도구를 어디에 놓아도 될까”에 가깝게 읽었습…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn-4.png"
+    },
     {
       "title": "AI 모델 앞에 문지기가 생겼다",
       "link": "https://feelyoworks.wordpress.com/2026/06/28/today-ai-news-2026-06-27/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News 2026.05.14 | 2026.05.13 해외 AI 뉴스 정리 오늘은 뉴스를 보면서 이런 생각이 먼저 들었어요. AI 경쟁이 “누가 더 똑똑한 모델을 냈나”에서 “그 AI가 어디에 들어가서, 어떤 권한으로, 어떤 일을 대신하나”로 넘어가고 있다는 것. OpenAI는 공급망 공격 이후 앱 인증서를 바꾸고 있고, Notion은 업무 공간 안으로 여러 에이전트를…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-logo-openai-supply-chain.png"
-    },
-    {
-      "title": "AI 시대의 경쟁력은 모델 점수보다 조직도와 검수 방식에서 갈려요",
-      "link": "https://feelyoworks.wordpress.com/2026/05/10/today-ai-news-2026-05-09/",
-      "date": "2026-05-10",
-      "categories": [
-        "AI이야기",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News 2026.05.10 | 2026.05.09 해외 AI 뉴스 정리 어제 해외 AI 뉴스를 보고 있으면, 경쟁의 중심이 확실히 옮겨가고 있다는 느낌이 듭니다. 더 똑똑한 모델을 누가 먼저 내놓느냐보다, 그 모델을 조직 안에 어떻게 심고, 몇 개를 동시에 굴리고, 마지막에 누가 검수하느냐가 더 중요한 문제로 떠오르고 있어요. 쉽게 말해 엔진 마력 경쟁에서 정비 체…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-blueprint-ai-org-redesign-1.png"
     }
   ]
 }
