@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-06-30T19:49:50+00:00",
+  "updated": "2026-07-01T03:27:58+00:00",
   "items": [
+    {
+      "title": "AI가 내 책상과 사진첩 옆으로 왔어요",
+      "link": "https://feelyoworks.wordpress.com/2026/07/01/today-ai-news-2026-06-30/",
+      "date": "2026-07-01",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "Anthropic"
+      ],
+      "summary": "TODAY AI 오늘AI News · 2026.07.01 발행 · 2026.06.30 해외 AI 흐름 정리 오늘 뉴스는 이상하게 한 장면으로 모였습니다. 누군가는 AI에게 일을 맡기고, 누군가는 연구실에서 검산을 시키고, 또 누군가는 사진첩을 열어 보여줍니다. Claude Sonnet 5, Claude Science, Gemini 개인화 이미지 기능은 서로 다른 소식이지만 같은 질문을 남깁니…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/07/01-story-handdrawn.png"
+    },
     {
       "title": "AI를 어디에 둘지 먼저 묻는 날",
       "link": "https://feelyoworks.wordpress.com/2026/06/30/today-ai-news-2026-06-29/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News 2026.05.16 | 2026.05.15 해외 AI 뉴스 정리 오늘은 “새 모델이 얼마나 똑똑해졌나”보다 “AI가 진짜 우리 일상 어디까지 들어오나”에 가까운 뉴스가 많았습니다. ChatGPT는 통장 흐름을 보고, Google은 학교에서 AI 규칙을 어떻게 만들지 이야기했고, Fin은 고객센터 AI를 손보는 AI를 내놨어요. 쉽게 말하면 AI가 채팅창 안에…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-editorial-openai-finance-symbol-2.png"
-    },
-    {
-      "title": "AI는 이제 앱이 아니라 일하는 구조가 되고 있어요",
-      "link": "https://feelyoworks.wordpress.com/2026/05/15/today-ai-news-2026-05-13/",
-      "date": "2026-05-14",
-      "categories": [
-        "AI이야기",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News 2026.05.14 | 2026.05.13 해외 AI 뉴스 정리 오늘은 뉴스를 보면서 이런 생각이 먼저 들었어요. AI 경쟁이 “누가 더 똑똑한 모델을 냈나”에서 “그 AI가 어디에 들어가서, 어떤 권한으로, 어떤 일을 대신하나”로 넘어가고 있다는 것. OpenAI는 공급망 공격 이후 앱 인증서를 바꾸고 있고, Notion은 업무 공간 안으로 여러 에이전트를…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-logo-openai-supply-chain.png"
     }
   ]
 }
