@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-07-11T18:56:18+00:00",
+  "updated": "2026-07-12T02:24:47+00:00",
   "items": [
+    {
+      "title": "AI를 켜기 전에, 먼저 봐야 할 것들",
+      "link": "https://feelyoworks.wordpress.com/2026/07/12/today-ai-news-2026-07-11/",
+      "date": "2026-07-11",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "Anthropic"
+      ],
+      "summary": "TODAY AI 오늘AI News · 2026.07.12 발행 · 2026.07.11 한국시간 기준 해외 AI 흐름 오늘 뉴스는 새 기능보다 그 뒤에 놓인 것들이 더 크게 보였습니다. Apple과 OpenAI의 소송에는 사람의 경험과 회사의 비밀이 겹쳐 있고, Claude 접근 제한 해제에는 “누가 이 모델을 써도 되는가”라는 질문이 붙어 있습니다. AI 데이터센터 이야기는 결국 전기와 발전…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/07/01-story-handdrawn-2.png"
+    },
     {
       "title": "AI가 내 책상과 사진첩 옆으로 왔어요",
       "link": "https://feelyoworks.wordpress.com/2026/07/01/today-ai-news-2026-06-30/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News 2026.05.17 | 2026.05.16 해외 AI 뉴스 정리 오늘은 화려한 모델 발표보다, AI가 들어가는 자리 자체가 바뀌고 있다는 뉴스가 많았습니다. ChatGPT는 한 나라의 성인 시민에게 제공되는 교육 인프라가 됐고, arXiv는 AI가 만든 논문을 어떻게 다룰지 선을 그었고, Stripe는 AI 에이전트가 실제로 결제하는 상황을 이야기했습니다.…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-logo-openai-malta-ai-access.png"
-    },
-    {
-      "title": "AI가 이제 통장과 교실, 고객센터까지 들어왔어요",
-      "link": "https://feelyoworks.wordpress.com/2026/05/16/today-ai-news-2026-05-15/",
-      "date": "2026-05-16",
-      "categories": [
-        "AI이야기",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News 2026.05.16 | 2026.05.15 해외 AI 뉴스 정리 오늘은 “새 모델이 얼마나 똑똑해졌나”보다 “AI가 진짜 우리 일상 어디까지 들어오나”에 가까운 뉴스가 많았습니다. ChatGPT는 통장 흐름을 보고, Google은 학교에서 AI 규칙을 어떻게 만들지 이야기했고, Fin은 고객센터 AI를 손보는 AI를 내놨어요. 쉽게 말하면 AI가 채팅창 안에…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-editorial-openai-finance-symbol-2.png"
     }
   ]
 }
