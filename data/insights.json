@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-07-13T02:26:15+00:00",
+  "updated": "2026-07-13T09:18:19+00:00",
   "items": [
+    {
+      "title": "AI가 빨라질수록 동의와 브레이크가 먼저 보여요",
+      "link": "https://feelyoworks.wordpress.com/2026/07/13/today-ai-news-2026-07-12/",
+      "date": "2026-07-13",
+      "categories": [
+        "AI이야기",
+        "AI뉴스",
+        "Anthropic"
+      ],
+      "summary": "TODAY AI 오늘AI News · 2026.07.13 발행 · 2026.07.12 한국시간 기준 해외 AI 흐름 오늘은 새 모델이 얼마나 똑똑해졌는지보다, AI를 켜기 전에 무엇을 먼저 확인해야 하는지가 더 크게 보였습니다. 공개 인스타그램 사진을 AI 이미지 재료로 쓰려던 기능은 멈췄고, AI 회사들은 자기 모델의 답변이 다른 회사 학습 재료로 쓰이는 문제를 걱정하기 시작했습니다. 샌프…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/07/01-story-handdrawn-3.png"
+    },
     {
       "title": "AI를 켜기 전에, 먼저 봐야 할 것들",
       "link": "https://feelyoworks.wordpress.com/2026/07/12/today-ai-news-2026-07-11/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News 2026.05.18 | 2026.05.17 해외 AI 뉴스 정리 오늘은 “AI가 얼마나 똑똑해졌나”보다 “AI를 어디까지 들여보낼 건가”에 가까운 뉴스가 많았습니다. Apple의 새 Siri 보도에서는 대화 기록을 자동으로 지우는 기능이 보이고, OPPO의 X-OmniClaw는 실제 안드로이드폰 화면을 보고 누르는 쪽으로 갑니다. SOOHAK 벤치마크는 AI…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-restrained-siri-blue-1.png"
-    },
-    {
-      "title": "ChatGPT는 국민 교육으로, AI는 논문과 결제창으로 들어갔어요",
-      "link": "https://feelyoworks.wordpress.com/2026/05/17/today-ai-news-2026-05-16/",
-      "date": "2026-05-17",
-      "categories": [
-        "AI이야기",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News 2026.05.17 | 2026.05.16 해외 AI 뉴스 정리 오늘은 화려한 모델 발표보다, AI가 들어가는 자리 자체가 바뀌고 있다는 뉴스가 많았습니다. ChatGPT는 한 나라의 성인 시민에게 제공되는 교육 인프라가 됐고, arXiv는 AI가 만든 논문을 어떻게 다룰지 선을 그었고, Stripe는 AI 에이전트가 실제로 결제하는 상황을 이야기했습니다.…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-logo-openai-malta-ai-access.png"
     }
   ]
 }
