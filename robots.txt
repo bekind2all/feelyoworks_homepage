@@ -1,9 +1,26 @@
 # Feelyoworks robots policy
-# Goal: allow search indexing and AI-search retrieval while keeping model-training use opt-out clear.
+# Goal: maximize discoverability in both classic search and AI answer engines (GEO).
+#
+# Policy summary:
+#   - Search indexing: allowed for all major engines.
+#   - AI retrieval / grounding (RAG, AI search answers): allowed — this is how
+#     Feelyoworks gets cited when someone asks an AI for an AI 교육 강사.
+#   - Model training: opted out via Content-Signal (ai-train=no), which is a
+#     rights reservation, not a crawl block. Crawling stays allowed so the site
+#     remains citable.
+#
+# NOTE: Cloudflare may prepend a "Managed Content" block to the served robots.txt
+# that disallows ClaudeBot, CCBot, GPTBot, Google-Extended, Applebot-Extended,
+# meta-externalagent, Amazonbot and Bytespider. That block is injected at the
+# edge and CANNOT be overridden from this file. It must be disabled in the
+# Cloudflare dashboard (AI Crawl Control / Manage robots.txt).
+# See GEO_ACTION_PLAN.md → "Cloudflare 대시보드 조치".
 
 User-agent: *
 Content-Signal: search=yes,ai-input=yes,ai-train=no
 Allow: /
+
+# ─── Classic search engines ───
 
 User-agent: Googlebot
 Allow: /
@@ -11,22 +28,83 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-User-agent: Yeti
-Allow: /
-
 User-agent: Bingbot
 Allow: /
 
+# Naver
+User-agent: Yeti
+Allow: /
+
+# Daum
+User-agent: Daum
+Allow: /
+
+User-agent: Daumoa
+Allow: /
+
+# ─── AI answer engines / retrieval crawlers ───
+# These are what determine whether Feelyoworks is cited in AI answers.
+
+# OpenAI — ChatGPT search index
 User-agent: OAI-SearchBot
 Allow: /
 
+# OpenAI — user-initiated browsing
 User-agent: ChatGPT-User
 Allow: /
 
+# OpenAI — general crawler (also feeds ChatGPT retrieval)
+User-agent: GPTBot
+Allow: /
+
+# Anthropic — Claude retrieval
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+# Google — Gemini / AI Overviews grounding
 User-agent: Google-Extended
 Allow: /
 
-User-agent: GPTBot
-Disallow: /
+# Perplexity
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# Apple Intelligence
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Microsoft Copilot
+User-agent: BingPreview
+Allow: /
+
+# Common Crawl — upstream corpus for many AI systems
+User-agent: CCBot
+Allow: /
+
+# Meta AI
+User-agent: meta-externalagent
+Allow: /
+
+# You.com, Mistral, Amazon
+User-agent: YouBot
+Allow: /
+
+User-agent: MistralAI-User
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
 
 Sitemap: https://feelyoworks.com/sitemap.xml

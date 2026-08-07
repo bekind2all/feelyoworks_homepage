@@ -1327,3 +1327,74 @@ p:last-child { margin-bottom: 0; }
   * { transition: none !important; animation: none !important; }
   html { scroll-behavior: auto; }
 }
+
+/* ─── FAQ — 교육 담당자 질문 아코디언 ─── */
+.faq-list {
+  max-width: 860px;
+  border-top: 1px solid var(--line);
+}
+
+.faq-item {
+  border-bottom: 1px solid var(--line);
+}
+
+.faq-q {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  padding: 24px 0;
+  cursor: pointer;
+  list-style: none;
+  font-size: 1.08rem;
+  font-weight: 600;
+  line-height: 1.45;
+  letter-spacing: -0.012em;
+  color: var(--ink);
+  transition: color .15s;
+}
+.faq-q::-webkit-details-marker { display: none; }
+.faq-q:hover { color: var(--accent); }
+
+.faq-q::after {
+  content: "+";
+  margin-left: auto;
+  flex: none;
+  font-family: var(--font-en);
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1;
+  color: var(--muted);
+  transition: transform .2s, color .15s;
+}
+.faq-item[open] > .faq-q::after {
+  content: "−";
+  color: var(--accent);
+}
+.faq-item[open] > .faq-q { color: var(--accent); }
+
+.faq-a {
+  padding: 0 0 28px;
+  max-width: 720px;
+  color: var(--ink-soft);
+  font-size: 1rem;
+  line-height: 1.72;
+  letter-spacing: -0.005em;
+}
+.faq-a p { margin: 0 0 12px; }
+.faq-a p:last-child { margin-bottom: 0; }
+.faq-a a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.faq-a ul {
+  margin: 4px 0 0;
+  padding-left: 18px;
+  list-style: disc;
+}
+.faq-a li { margin: 4px 0; }
+
+@media (max-width: 720px) {
+  .faq-q { font-size: 1rem; padding: 20px 0; gap: 12px; }
+  .faq-a { padding-bottom: 22px; font-size: 0.96rem; }
+}

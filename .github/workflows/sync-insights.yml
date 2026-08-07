@@ -27,17 +27,23 @@ jobs:
         with:
           python-version: "3.11"
 
-      - name: Fetch RSS feed → insights.json
+      # 이 스크립트는 data/insights.json 뿐 아니라
+      # index.html, insights.html, sitemap.xml 도 함께 갱신합니다.
+      # (뉴스레터 목록을 크롤러가 읽을 수 있도록 정적 HTML로 주입하기 때문)
+      - name: Fetch RSS feed → JSON + 정적 HTML 주입
         run: python scripts/fetch-insights.py
 
       - name: Commit if changed
         run: |
-          if git diff --quiet -- data/insights.json; then
+          TRACKED="data/insights.json index.html insights.html sitemap.xml"
+          if git diff --quiet -- $TRACKED; then
             echo "No content changes — skipping commit."
             exit 0
           fi
+          echo "Changed files:"
+          git diff --name-only -- $TRACKED
           git config user.name "feelyo-sync-bot"
           git config user.email "bot@feelyoworks.com"
-          git add data/insights.json
+          git add $TRACKED
           git commit -m "chore: sync WordPress insights ($(date -u '+%Y-%m-%d %H:%MZ'))"
           git push
