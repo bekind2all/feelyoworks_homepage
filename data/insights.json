@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-09-24T02:57:07+00:00",
+  "updated": "2026-09-24T11:01:57+00:00",
   "items": [
+    {
+      "title": "AI란 무엇일까, 한 줄로 말하면 이렇습니다",
+      "link": "https://feelyoworks.wordpress.com/2026/09/24/ai-story-01-what-is-ai/",
+      "date": "2026-09-24",
+      "categories": [
+        "AI이야기",
+        "AI 기초",
+        "AI 이야기"
+      ],
+      "summary": "AI 이야기 · 1편 AI란 무엇일까요. 로봇을 떠올리는 사람도, 챗GPT를 떠올리는 사람도, 2016년 이세돌 9단과 바둑을 두던 알파고를 떠올리는 사람도 있습니다. 다 맞는 말입니다. 그런데 막상 “그래서 AI가 뭔데?”라는 질문을 받으면 한 문장으로 답하기가 쉽지 않습니다. 이 글을 읽고 나면 AI를 한 문장으로 설명할 수 있게 됩니다. AI가 왜 가끔 자신 있게 틀리는지, 그 이유의…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/09/01-ai-story-what-is-ai.png"
+    },
     {
       "title": "AI가 빨라질수록 동의와 브레이크가 먼저 보여요",
       "link": "https://feelyoworks.wordpress.com/2026/07/13/today-ai-news-2026-07-12/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News 2026.05.20 | 2026.05.19 해외 AI 뉴스 정리 어제 AI 뉴스는 한 문장으로 말하면 이거예요. AI가 말만 잘하는 도구에서, 슬슬 “제가 해볼게요” 하고 손을 드는 도구로 넘어가고 있습니다. Google은 Gemini를 검색창, 휴대폰, 브라우저, 개발 도구 안으로 더 깊게 넣었고요. OpenAI와 Google은 AI가 만든 이미지에 출처…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-final-google-gemini-workbench.png"
-    },
-    {
-      "title": "AI가 내 휴대폰을 만지기 시작하면 먼저 확인할 것들",
-      "link": "https://feelyoworks.wordpress.com/2026/05/18/today-ai-news-2026-05-17/",
-      "date": "2026-05-18",
-      "categories": [
-        "최신AI소식",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News 2026.05.18 | 2026.05.17 해외 AI 뉴스 정리 오늘은 “AI가 얼마나 똑똑해졌나”보다 “AI를 어디까지 들여보낼 건가”에 가까운 뉴스가 많았습니다. Apple의 새 Siri 보도에서는 대화 기록을 자동으로 지우는 기능이 보이고, OPPO의 X-OmniClaw는 실제 안드로이드폰 화면을 보고 누르는 쪽으로 갑니다. SOOHAK 벤치마크는 AI…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/05/01-restrained-siri-blue-1.png"
     }
   ]
 }
