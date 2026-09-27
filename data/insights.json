@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-09-26T03:17:42+00:00",
+  "updated": "2026-09-27T03:25:48+00:00",
   "items": [
+    {
+      "title": "판단하는 AI와 만들어 내는 AI, 무엇이 다를까요",
+      "link": "https://feelyoworks.wordpress.com/2026/09/27/ai-story-03-analytical-vs-generative-ai/",
+      "date": "2026-09-27",
+      "categories": [
+        "AI이야기",
+        "AI 이야기",
+        "생성형 AI"
+      ],
+      "summary": "AI 이야기 · 3편 얼마 전 카드사에서 문자가 왔습니다. “해외 결제가 의심되어 잠시 막았습니다.” 사람이 일일이 확인한 게 아니라, AI가 알아서 판단해 준 거였습니다. 그런가 보다 하고 넘겼는데, 같은 주에 챗GPT에게 보고서 초안을 부탁하면서는 전혀 다른 경험을 했습니다. 똑같은 질문을 두 번 던졌는데, 답이 매번 조금씩 다르게 나온 겁니다. 카드사 문자 속 AI는 왜 조용히 판단만…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/09/01-ai-story-analytical-vs-generative-ai.png"
+    },
     {
       "title": "우리는 챗GPT 전부터 이미 AI를 쓰고 있었습니다",
       "link": "https://feelyoworks.wordpress.com/2026/09/26/ai-story-02-already-using-ai-2/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News · 2026.06.14 발행 · 2026.06.13 해외 AI 소식 오늘은 AI가 “얼마나 똑똑해졌나”보다 “누가, 어떤 기준으로, 어떻게 써야 하나”가 더 크게 보인 날이었습니다. Anthropic의 새 모델은 정부 지침 때문에 갑자기 잠겼고, OpenAI는 회사 사람들이 AI를 일상 업무에 적용하는 정규 과정을 내놨고, Anthropic은 미국인들이 AI…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn-2.png"
-    },
-    {
-      "title": "AI가 보안팀, 내 컴퓨터, 음악 앱 안으로 들어왔어요",
-      "link": "https://feelyoworks.wordpress.com/2026/05/23/today-ai-news-2026-05-22/",
-      "date": "2026-05-23",
-      "categories": [
-        "최신AI소식",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News 2026.05.23 | 2026.05.22 해외 AI 뉴스 정리 오늘 뉴스는 한 문장으로 말하면 이렇습니다. AI가 이제 “대답을 잘하는 도구”를 넘어, 보안팀의 버그 찾기, 내 컴퓨터 안의 업무 처리, 음악 앱 안의 리믹스 제작까지 들어오고 있습니다. 재미있는 건, 세 뉴스 모두 같은 질문으로 돌아온다는 점이에요. AI가 뭔가를 빨리 찾아주고 만들어주면,…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn-1.png"
     }
   ]
 }
