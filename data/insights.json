@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-09-27T03:25:48+00:00",
+  "updated": "2026-09-29T03:59:42+00:00",
   "items": [
+    {
+      "title": "한 가지만 잘하는 AI, 무엇이든 해내는 AI: “AGI가 왔다”는 뉴스, 정의부터 보세요",
+      "link": "https://feelyoworks.wordpress.com/2026/09/29/ai-story-04-weak-vs-strong-ai-agi/",
+      "date": "2026-09-29",
+      "categories": [
+        "AI이야기",
+        "AGI",
+        "AI 이야기"
+      ],
+      "summary": "AI 이야기 · 4편 같은 주에 뉴스 제목 두 개를 나란히 본 적이 있을 겁니다. 하나는 “AGI 시대가 열렸다”, 다른 하나는 “AGI는 아직 멀었다”입니다. 같은 AI 이야기인데 결론은 정반대여서, 누구 말이 맞는지 알 수 없고 왠지 나만 못 따라가는 기분이 듭니다. 같은 AI를 보고 어떻게 한쪽은 이미 왔다고 하고, 한쪽은 아직 멀었다고 할까요. 이 글을 읽고 나면 “AGI가 왔다”는…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/09/01-ai-story-weak-vs-strong-ai-agi.png"
+    },
     {
       "title": "판단하는 AI와 만들어 내는 AI, 무엇이 다를까요",
       "link": "https://feelyoworks.wordpress.com/2026/09/27/ai-story-03-analytical-vs-generative-ai/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News · 2026.06.28 발행 · 2026.06.27 해외 AI 흐름 정리 어제 해외 AI 뉴스를 읽으면서 제일 먼저 든 생각은 이거였습니다. 이제 모델 경쟁은 성능표만 보는 일이 아니구나. 누가 먼저 열쇠를 받고, 누가 문 앞에서 기다리고, 실제 일하는 사람은 그 사이에서 어떤 기준을 세워야 하는지가 더 크게 보였습니다. 강의실에서 설명하자면, 오늘의 키워드…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn-3.png"
-    },
-    {
-      "title": "Claude는 잠겼고, AI 공부는 정규과정이 됐어요",
-      "link": "https://feelyoworks.wordpress.com/2026/06/14/today-ai-news-2026-06-13/",
-      "date": "2026-06-14",
-      "categories": [
-        "최신AI소식",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News · 2026.06.14 발행 · 2026.06.13 해외 AI 소식 오늘은 AI가 “얼마나 똑똑해졌나”보다 “누가, 어떤 기준으로, 어떻게 써야 하나”가 더 크게 보인 날이었습니다. Anthropic의 새 모델은 정부 지침 때문에 갑자기 잠겼고, OpenAI는 회사 사람들이 AI를 일상 업무에 적용하는 정규 과정을 내놨고, Anthropic은 미국인들이 AI…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn-2.png"
     }
   ]
 }
