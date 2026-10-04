@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-10-01T03:54:52+00:00",
+  "updated": "2026-10-04T04:06:03+00:00",
   "items": [
+    {
+      "title": "AI의 겨울이란, 큰 약속이 현실을 만나 두 번 식은 이야기",
+      "link": "https://feelyoworks.wordpress.com/2026/10/04/ai-story-06-ai-winter/",
+      "date": "2026-10-04",
+      "categories": [
+        "AI이야기",
+        "AI 이야기",
+        "AI의 겨울"
+      ],
+      "summary": "AI 이야기 · 6편 “AI 이거 거품 아니야? 곧 식을걸.” 뉴스에서든 술자리에서든 이런 말을 듣고 고개가 끄덕여진 적이 있을 겁니다. 그런데 ‘AI의 겨울’이라는 이름은 이미 두 번 붙은 적이 있습니다. 그 두 번이 왜 왔는지 따라가 보면, 요즘 AI 이야기를 들을 때 떠올릴 질문 하나가 생깁니다. 지금의 열기가 꺼질지는 아무도 모르니 그건 맞히지 않습니다. 뜨겁게 오르던 기대도 식을 수…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-ai-winter.png"
+    },
     {
       "title": "기계는 생각할 수 있을까, 튜링 테스트와 일라이자가 남긴 질문",
       "link": "https://feelyoworks.wordpress.com/2026/10/01/ai-story-05-can-machines-think/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News · 2026.07.01 발행 · 2026.06.30 해외 AI 흐름 정리 오늘 뉴스는 이상하게 한 장면으로 모였습니다. 누군가는 AI에게 일을 맡기고, 누군가는 연구실에서 검산을 시키고, 또 누군가는 사진첩을 열어 보여줍니다. Claude Sonnet 5, Claude Science, Gemini 개인화 이미지 기능은 서로 다른 소식이지만 같은 질문을 남깁니…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/07/01-story-handdrawn.png"
-    },
-    {
-      "title": "AI를 어디에 둘지 먼저 묻는 날",
-      "link": "https://feelyoworks.wordpress.com/2026/06/30/today-ai-news-2026-06-29/",
-      "date": "2026-06-30",
-      "categories": [
-        "최신AI소식",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News · 2026.06.30 발행 · 2026.06.29 해외 AI 흐름 정리 오늘은 새 모델 이름보다, AI가 앉게 될 자리가 더 눈에 들어왔습니다. 시청 민원 창구 옆에, 병원 기록이 담긴 서랍 옆에, 음악 수익을 나누는 정산표 위에 AI가 하나씩 올라오고 있어요. 그래서 오늘 뉴스는 “AI가 또 좋아졌다”보다 “이 도구를 어디에 놓아도 될까”에 가깝게 읽었습…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/06/01-story-handdrawn-4.png"
     }
   ]
 }
