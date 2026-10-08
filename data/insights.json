@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-10-06T04:38:31+00:00",
+  "updated": "2026-10-08T04:16:51+00:00",
   "items": [
+    {
+      "title": "딥러닝이란 무엇일까, 2012년 신경망이 돌아온 이유",
+      "link": "https://feelyoworks.wordpress.com/2026/10/08/ai-story-08-deep-learning-2012-neural-network-return/",
+      "date": "2026-10-08",
+      "categories": [
+        "AI이야기",
+        "AI 역사",
+        "AI 이야기"
+      ],
+      "summary": "AI 이야기 · 8편 딥러닝이라는 말을 몰라도, 스마트폰 사진첩 검색창에 “강아지”라고 치면 강아지 사진만 모여 나옵니다. 누가 기계에게 강아지의 생김새를 하나하나 가르쳐 줬을까요. 예전 방식에서는 사람이 어디를 볼지 골라 주는 경우가 많았고, 이 흐름이 크게 바뀌었다고 널리 이야기되는 계기가 2012년의 한 대회였습니다. 이 글을 읽으면 딥러닝 이 예전 방식과 무엇이 달랐는지, 2012년에…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-deep-learning-2012-neural-network-return.png"
+    },
     {
       "title": "머신러닝이란 무엇일까, 규칙을 적기 어려운 일은 예시로 배웁니다",
       "link": "https://feelyoworks.wordpress.com/2026/10/06/ai-story-07-what-is-machine-learning/",
@@ -109,18 +121,6 @@
       ],
       "summary": "TODAY AI 오늘AI News · 2026.07.13 발행 · 2026.07.12 한국시간 기준 해외 AI 흐름 오늘은 새 모델이 얼마나 똑똑해졌는지보다, AI를 켜기 전에 무엇을 먼저 확인해야 하는지가 더 크게 보였습니다. 공개 인스타그램 사진을 AI 이미지 재료로 쓰려던 기능은 멈췄고, AI 회사들은 자기 모델의 답변이 다른 회사 학습 재료로 쓰이는 문제를 걱정하기 시작했습니다. 샌프…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/07/01-story-handdrawn-3.png"
-    },
-    {
-      "title": "AI를 켜기 전에, 먼저 봐야 할 것들",
-      "link": "https://feelyoworks.wordpress.com/2026/07/12/today-ai-news-2026-07-11/",
-      "date": "2026-07-11",
-      "categories": [
-        "최신AI소식",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News · 2026.07.12 발행 · 2026.07.11 한국시간 기준 해외 AI 흐름 오늘 뉴스는 새 기능보다 그 뒤에 놓인 것들이 더 크게 보였습니다. Apple과 OpenAI의 소송에는 사람의 경험과 회사의 비밀이 겹쳐 있고, Claude 접근 제한 해제에는 “누가 이 모델을 써도 되는가”라는 질문이 붙어 있습니다. AI 데이터센터 이야기는 결국 전기와 발전…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/07/01-story-handdrawn-2.png"
     }
   ]
 }
