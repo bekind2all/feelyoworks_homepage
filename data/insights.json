@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-10-09T04:22:02+00:00",
+  "updated": "2026-10-10T04:07:13+00:00",
   "items": [
+    {
+      "title": "챗GPT의 T는 무엇일까, 트랜스포머가 문장을 한눈에 읽는 법",
+      "link": "https://feelyoworks.wordpress.com/2026/10/10/ai-story-09-chatgpt-t-transformer-attention/",
+      "date": "2026-10-10",
+      "categories": [
+        "AI이야기",
+        "AI 역사",
+        "AI 이야기"
+      ],
+      "summary": "AI 이야기 · 9편 단체 카톡방을 맨 위부터 한 줄씩 읽어 내려가다 보면, 끝에 닿았을 때 첫 줄 내용이 가물가물해집니다. 챗GPT의 T, 트랜스포머는 이렇게 한 줄로 읽어 가는 방식을 벗어난 구조입니다. 이 글을 읽으면 트랜스포머 가 문장을 어떻게 읽는지, 그 구조 위에서 GPT가 어떻게 커졌는지, 그리고 GPT-3에서 챗GPT 공개까지 어떤 순서로 흘러갔는지를 한 흐름으로 말할 수 있습…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-chatgpt-t-transformer-attention.png"
+    },
     {
       "title": "딥러닝이란 무엇일까, 2012년 신경망이 돌아온 이유",
       "link": "https://feelyoworks.wordpress.com/2026/10/08/ai-story-08-deep-learning-2012-neural-network-return/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 1편 AI란 무엇일까요. 로봇을 떠올리는 사람도, 챗GPT를 떠올리는 사람도, 2016년 이세돌 9단과 바둑을 두던 알파고를 떠올리는 사람도 있습니다. 다 맞는 말입니다. 그런데 막상 “그래서 AI가 뭔데?”라는 질문을 받으면 한 문장으로 답하기가 쉽지 않습니다. 이 글을 읽고 나면 AI를 한 문장으로 설명할 수 있게 됩니다. AI가 왜 가끔 자신 있게 틀리는지, 그 이유의…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/09/01-ai-story-what-is-ai.png"
-    },
-    {
-      "title": "AI가 빨라질수록 동의와 브레이크가 먼저 보여요",
-      "link": "https://feelyoworks.wordpress.com/2026/07/13/today-ai-news-2026-07-12/",
-      "date": "2026-07-13",
-      "categories": [
-        "최신AI소식",
-        "AI뉴스",
-        "Anthropic"
-      ],
-      "summary": "TODAY AI 오늘AI News · 2026.07.13 발행 · 2026.07.12 한국시간 기준 해외 AI 흐름 오늘은 새 모델이 얼마나 똑똑해졌는지보다, AI를 켜기 전에 무엇을 먼저 확인해야 하는지가 더 크게 보였습니다. 공개 인스타그램 사진을 AI 이미지 재료로 쓰려던 기능은 멈췄고, AI 회사들은 자기 모델의 답변이 다른 회사 학습 재료로 쓰이는 문제를 걱정하기 시작했습니다. 샌프…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/07/01-story-handdrawn-3.png"
     }
   ]
 }
