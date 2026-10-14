@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-10-13T13:27:45+00:00",
+  "updated": "2026-10-14T03:21:09+00:00",
   "items": [
+    {
+      "title": "머신러닝이란, AI가 규칙 대신 예시를 보고 배우는 방식입니다",
+      "link": "https://feelyoworks.wordpress.com/2026/10/14/ai-story-11-machine-learning-examples/",
+      "date": "2026-10-14",
+      "categories": [
+        "AI이야기",
+        "AI 기초",
+        "AI 이야기"
+      ],
+      "summary": "AI 이야기 · 11편 광고 메일이 알아서 스팸함에 들어가 있는 걸 보며 “누가 일일이 걸러 놓았지?” 싶었던 적, 있으시죠. 그 뒤에 있는 머신러닝 이야기를 오늘 풀어 봅니다. 가끔은 중요한 메일이 스팸함에서 발견되어 “대체 어떤 기준일까” 갸웃하기도 합니다. 아무도 “이런 단어가 있으면 광고”라는 규칙을 적어 주지 않았는데, 기계는 어떻게 광고를 알아볼까요. 답부터 말씀드리면 머신러닝은…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-machine-learning-examples.png"
+    },
     {
       "title": "AI 머신러닝 딥러닝 차이, 다른 게 아니라 상자 안의 상자입니다",
       "link": "https://feelyoworks.wordpress.com/2026/10/13/ai-story-10-ai-ml-dl-llm-boxes/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 2편 어젯밤에도 유튜브에서 영상 하나를 보고 나니 비슷한 영상이 줄줄이 이어졌습니다. 며칠 전 쇼핑몰에서 딱 한 번 검색해 본 운동화 광고는 다른 사이트에 갈 때마다 계속 따라다녔습니다. 그때는 그냥 “요즘 인터넷이 다 이렇지” 하고 넘겼습니다. AI라는 이름을 붙여 생각해 본 적은 없었습니다. 그런데 이게 다 AI가 하는 일이라면 이야기가 달라집니다. 챗GPT를 처음 써 보…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/09/01-ai-story-already-using-ai-1.png"
-    },
-    {
-      "title": "우리는 챗GPT 전부터 이미 AI를 쓰고 있었습니다",
-      "link": "https://feelyoworks.wordpress.com/2026/09/26/ai-story-02-already-using-ai/",
-      "date": "2026-09-26",
-      "categories": [
-        "AI이야기",
-        "AI 이야기",
-        "머신러닝"
-      ],
-      "summary": "AI 이야기 · 2편 어젯밤에도 유튜브에서 영상 하나를 보고 나니 비슷한 영상이 줄줄이 이어졌습니다. 며칠 전 쇼핑몰에서 딱 한 번 검색해 본 운동화 광고는 다른 사이트에 갈 때마다 계속 따라다녔습니다. 그때는 그냥 “요즘 인터넷이 다 이렇지” 하고 넘겼습니다. AI라는 이름을 붙여 생각해 본 적은 없었습니다. 그런데 이게 다 AI가 하는 일이라면 이야기가 달라집니다. 챗GPT를 처음 써 보…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/09/01-ai-story-already-using-ai.png"
     }
   ]
 }
