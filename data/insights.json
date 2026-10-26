@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-10-25T03:00:16+00:00",
+  "updated": "2026-10-26T02:59:22+00:00",
   "items": [
+    {
+      "title": "AI는 클수록 똑똑해질까, 규모의 법칙과 ‘불쑥 나타나는 능력’ 이야기",
+      "link": "https://feelyoworks.wordpress.com/2026/10/26/ai-story-18-scaling-law/",
+      "date": "2026-10-26",
+      "categories": [
+        "AI이야기",
+        "AI 이야기",
+        "매개변수"
+      ],
+      "summary": "AI 이야기 · 18편 AI는 클수록 똑똑해진다던데, 그럼 제일 큰 걸 쓰면 될까요? AI 뉴스에는 “매개변수 1,750억 개”, “5,000억 달러 투자” 같은 큰 숫자가 자주 나옵니다. 매개변수 (파라미터)는 모델 속에 들어 있는 조절 손잡이 같은 숫자이고, 이 손잡이가 많을수록 큰 모델이라 부릅니다. 17편에서 본 GPT-3처럼 말로 부탁하면 일을 하는 AI의 능력은 어디서 왔을까요.…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-scaling-law.png"
+    },
     {
       "title": "기반 모델이란 무엇일까, 전용 가전에서 스마트폰으로 바뀐 AI 이야기",
       "link": "https://feelyoworks.wordpress.com/2026/10/25/ai-story-17-foundation-model/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 9편 단체 카톡방을 맨 위부터 한 줄씩 읽어 내려가다 보면, 끝에 닿았을 때 첫 줄 내용이 가물가물해집니다. 챗GPT의 T, 트랜스포머는 학습할 때 문장 속 여러 위치의 관계를 함께 계산할 수 있게 만든 구조입니다. 이 글에서는 단어라고 풀어 쓰지만, 실제 계산 단위는 단어·단어 조각·문장 부호 등을 나타내는 토큰입니다. 이 글을 읽으면 트랜스포머 가 문장을 어떻게 읽는지,…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-chatgpt-t-transformer-attention.png"
-    },
-    {
-      "title": "딥러닝이란 무엇일까, 2012년 신경망이 돌아온 이유",
-      "link": "https://feelyoworks.wordpress.com/2026/10/08/ai-story-08-deep-learning-2012-neural-network-return/",
-      "date": "2026-10-08",
-      "categories": [
-        "AI이야기",
-        "AI 역사",
-        "AI 이야기"
-      ],
-      "summary": "AI 이야기 · 8편 딥러닝이라는 말을 몰라도, 구글 포토 같은 스마트폰 사진 앱에서 “강아지”를 검색하면 관련 사진을 모아 볼 수 있습니다. 누가 기계에게 강아지의 생김새를 하나하나 가르쳐 줬을까요. 예전 방식에서는 사람이 어떤 특징을 볼지 골라 주는 경우가 많았고, 이 흐름이 크게 바뀌었다고 널리 이야기되는 계기가 2012년의 한 대회였습니다. 이 글을 읽으면 딥러닝 이 예전 방식과 무엇…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-deep-learning-2012-neural-network-return.png"
     }
   ]
 }
