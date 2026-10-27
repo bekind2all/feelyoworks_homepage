@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-10-26T02:59:22+00:00",
+  "updated": "2026-10-27T03:31:32+00:00",
   "items": [
+    {
+      "title": "컴퓨터는 언제부터 사람의 말을 알아들었을까, 펀치카드에서 AI까지",
+      "link": "https://feelyoworks.wordpress.com/2026/10/27/ai-story-19-computer-human-language/",
+      "date": "2026-10-27",
+      "categories": [
+        "AI이야기",
+        "AI 이야기",
+        "바이브코딩"
+      ],
+      "summary": "AI 이야기 · 19편 가상의 장면입니다. 김 대리가 AI에게 “보고서를 짧게 정리해 줘”라고 쳤는데, 답을 보고 고개를 갸웃합니다. 컴퓨터가 사람의 말을 알아듣는 시대인데도 “내가 말한 건 이게 아닌데” 싶은 순간이 옵니다. 옛날에는 컴퓨터에게 일을 시키려면 구멍을 뚫거나 정해진 명령어를 외워야 했습니다. 우리는 어떻게 사람의 말로 부탁하는 자리까지 왔을까요. 이 글을 읽으면 컴퓨터의 말을…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-computer-human-language.png"
+    },
     {
       "title": "AI는 클수록 똑똑해질까, 규모의 법칙과 ‘불쑥 나타나는 능력’ 이야기",
       "link": "https://feelyoworks.wordpress.com/2026/10/26/ai-story-18-scaling-law/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 10편 AI 기사를 읽다 보면 한 문단 안에 인공지능, 머신러닝, 딥러닝, LLM이 줄줄이 나옵니다. 같은 말 같기도 하고 다른 말 같기도 해서 그냥 넘어간 적, 있으시죠. “챗GPT에 새 모델이 나왔다”는 기사 앞에서 바뀐 게 챗GPT인지 GPT인지 갸웃해 본 분도 계실 겁니다. 답부터 말씀드리면, 인공지능, 머신러닝, 딥러닝은 서로 다른 기술이 아니라 큰 상자 안에 작은…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-ai-ml-dl-llm-boxes.png"
-    },
-    {
-      "title": "챗GPT의 T는 무엇일까, 트랜스포머가 문장을 한눈에 읽는 법",
-      "link": "https://feelyoworks.wordpress.com/2026/10/10/ai-story-09-chatgpt-t-transformer-attention/",
-      "date": "2026-10-10",
-      "categories": [
-        "AI이야기",
-        "AI 역사",
-        "AI 이야기"
-      ],
-      "summary": "AI 이야기 · 9편 단체 카톡방을 맨 위부터 한 줄씩 읽어 내려가다 보면, 끝에 닿았을 때 첫 줄 내용이 가물가물해집니다. 챗GPT의 T, 트랜스포머는 학습할 때 문장 속 여러 위치의 관계를 함께 계산할 수 있게 만든 구조입니다. 이 글에서는 단어라고 풀어 쓰지만, 실제 계산 단위는 단어·단어 조각·문장 부호 등을 나타내는 토큰입니다. 이 글을 읽으면 트랜스포머 가 문장을 어떻게 읽는지,…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-chatgpt-t-transformer-attention.png"
     }
   ]
 }
