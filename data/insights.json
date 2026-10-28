@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-10-27T03:31:32+00:00",
+  "updated": "2026-10-28T22:07:03+00:00",
   "items": [
+    {
+      "title": "챗GPT 두 달 만에 1억 명, 왜 이렇게 빨리 퍼졌을까",
+      "link": "https://feelyoworks.wordpress.com/2026/10/29/ai-story-20-chatgpt-100-million/",
+      "date": "2026-10-28",
+      "categories": [
+        "AI이야기",
+        "AI 이야기",
+        "생성형 AI"
+      ],
+      "summary": "AI 이야기 · 20편 챗GPT의 월간 이용자가 두 달 만에 1억 명에 이른 것으로 추산됐다는 소식이 오르내리던 때가 있었습니다. 뉴스에서도 주변 이야기에서도 챗GPT라는 이름이 계속 들려서, 나만 안 써 본 건가 싶었던 분도 계실 겁니다. 그런데 GPT-3 같은 모델은 2020년에 이미 논문으로 나와 있었습니다. 왜 하필 이때, 이렇게 빨리 퍼졌을까요. 그 1억 명이라는 숫자는 누가 어떻게…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-chatgpt-garden-gate.png"
+    },
     {
       "title": "컴퓨터는 언제부터 사람의 말을 알아들었을까, 펀치카드에서 AI까지",
       "link": "https://feelyoworks.wordpress.com/2026/10/27/ai-story-19-computer-human-language/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 11편 광고 메일이 알아서 스팸함에 들어가 있는 걸 보며 “누가 일일이 걸러 놓았지?” 싶었던 적, 있으시죠. 그 뒤에 있는 머신러닝 이야기를 오늘 풀어 봅니다. 가끔은 중요한 메일이 스팸함에서 발견되어 “대체 어떤 기준일까” 갸웃하기도 합니다. 아무도 “이런 단어가 있으면 광고”라는 규칙을 적어 주지 않았는데, 기계는 어떻게 광고를 알아볼까요. 답부터 말씀드리면 머신러닝은…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-machine-learning-examples.png"
-    },
-    {
-      "title": "AI 머신러닝 딥러닝 차이, 다른 게 아니라 상자 안의 상자입니다",
-      "link": "https://feelyoworks.wordpress.com/2026/10/13/ai-story-10-ai-ml-dl-llm-boxes/",
-      "date": "2026-10-13",
-      "categories": [
-        "AI이야기",
-        "AI 기초",
-        "AI 이야기"
-      ],
-      "summary": "AI 이야기 · 10편 AI 기사를 읽다 보면 한 문단 안에 인공지능, 머신러닝, 딥러닝, LLM이 줄줄이 나옵니다. 같은 말 같기도 하고 다른 말 같기도 해서 그냥 넘어간 적, 있으시죠. “챗GPT에 새 모델이 나왔다”는 기사 앞에서 바뀐 게 챗GPT인지 GPT인지 갸웃해 본 분도 계실 겁니다. 답부터 말씀드리면, 인공지능, 머신러닝, 딥러닝은 서로 다른 기술이 아니라 큰 상자 안에 작은…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-ai-ml-dl-llm-boxes.png"
     }
   ]
 }
