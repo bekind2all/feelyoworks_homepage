@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-10-28T22:07:03+00:00",
+  "updated": "2026-10-31T03:52:59+00:00",
   "items": [
+    {
+      "title": "챗GPT에 회사 자료를 붙여 넣어도 될까, 삼성전자 사례로 보는 2023년의 고민",
+      "link": "https://feelyoworks.wordpress.com/2026/10/31/ai-story-21-pasting-company-data-chatgpt/",
+      "date": "2026-10-31",
+      "categories": [
+        "AI이야기",
+        "AI 이야기",
+        "삼성전자"
+      ],
+      "summary": "AI 이야기 · 21편 챗GPT에 “보도자료 써 줘” 한 줄만 쳤더니 어디서 본 듯한 뻔한 글이 나와서 맥이 빠진 적, 있으신가요. 회사 소개와 제품 설명을 길게 붙여 넣고서야 쓸 만해졌다면, 그다음에 이런 의문이 따라옵니다. 이렇게 붙여 넣은 내용은 어디로 가는 걸까. 회사 자료를 넣어도 되는 걸까요. 이 글을 읽으면 챗GPT를 처음 쓰던 2023년의 회사들이 이 질문에 어떻게 답했는지,…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-pasting-company-data-chatgpt.png"
+    },
     {
       "title": "챗GPT 두 달 만에 1억 명, 왜 이렇게 빨리 퍼졌을까",
       "link": "https://feelyoworks.wordpress.com/2026/10/29/ai-story-20-chatgpt-100-million/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 12편 딥러닝 이야기를 휴대폰 앨범에서 시작해 봅니다. “고양이”를 찾으면 고양이 사진이 줄줄이 모여 나오죠. 그런데 컴퓨터에게 사진 한 장은 고양이가 아니라, 점마다 붙은 빨강·초록·파랑 밝기 숫자의 더미입니다. 휴대폰 사진 한 장에는 이런 숫자가 아주 많이 들어 있습니다. “귀는 이런 숫자 모양”이라고 누가 알려 줄 수 있었을까요. 앞 편의 광고 메일에서는 ‘무료’ 같은…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-deep-learning-finds-clues.png"
-    },
-    {
-      "title": "머신러닝이란, AI가 규칙 대신 예시를 보고 배우는 방식입니다",
-      "link": "https://feelyoworks.wordpress.com/2026/10/14/ai-story-11-machine-learning-examples/",
-      "date": "2026-10-14",
-      "categories": [
-        "AI이야기",
-        "AI 기초",
-        "AI 이야기"
-      ],
-      "summary": "AI 이야기 · 11편 광고 메일이 알아서 스팸함에 들어가 있는 걸 보며 “누가 일일이 걸러 놓았지?” 싶었던 적, 있으시죠. 그 뒤에 있는 머신러닝 이야기를 오늘 풀어 봅니다. 가끔은 중요한 메일이 스팸함에서 발견되어 “대체 어떤 기준일까” 갸웃하기도 합니다. 아무도 “이런 단어가 있으면 광고”라는 규칙을 적어 주지 않았는데, 기계는 어떻게 광고를 알아볼까요. 답부터 말씀드리면 머신러닝은…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-machine-learning-examples.png"
     }
   ]
 }
