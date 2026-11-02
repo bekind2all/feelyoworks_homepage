@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-11-01T04:04:44+00:00",
+  "updated": "2026-11-02T04:09:18+00:00",
   "items": [
+    {
+      "title": "GPT-4o와 생각하는 AI, 사진과 목소리를 한 모델이 다루고 먼저 생각하게 된 이야기",
+      "link": "https://feelyoworks.wordpress.com/2026/11/02/ai-story-23-gpt-4o-o1-reasoning-model/",
+      "date": "2026-11-02",
+      "categories": [
+        "AI이야기",
+        "AI 이야기",
+        "딥시크"
+      ],
+      "summary": "AI 이야기 · 23편 회의가 끝나면 화이트보드를 찍어 두지만 사진은 갤러리에서 잠자고, 결국 글자로 다시 옮겨 적곤 하죠. GPT-4o는 이 일을 어떻게 바꿨을까요. 가상의 장면으로, 21편과 22편에 나온 가상의 회사원 김 대리도 그랬다고 해 보겠습니다. 2024년 5월에 나온 GPT-4o는 이전 AI와 무엇이 달랐고, 그 뒤 AI에게 하는 요청은 어떻게 달라졌을까요. 이 글을 읽으면 2…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/11/01-ai-story-gpt-4o-o1-reasoning-model.png"
+    },
     {
       "title": "한 번 적어 두면 AI가 기억할까, 맞춤형 지침에서 GPTs·프로젝트·젬스까지",
       "link": "https://feelyoworks.wordpress.com/2026/11/01/ai-story-22-custom-instructions-gpts-projects-gems/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 14편 챗GPT에 질문을 던졌더니 답 앞에 “좋은 질문이에요!” 같은 한마디가 먼저 붙은 화면, 보신 적 있으실 겁니다. 13편에서 본 GPT-3처럼 다음 말 맞히기만 배운 모델은 질문을 받아도 답 대신 비슷한 질문을 이어 쓰는 모습을 보이기도 했습니다. 그런 모델이 어떻게 질문에 답하는 도우미가 됐을까요. 이 글을 읽으면 AI가 대화를 배우는 과정의 세 단계, 그 가운데 사…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-chatgpt-learned-conversation.png"
-    },
-    {
-      "title": "LLM이란, 앞글을 보고 다음 말을 하나씩 이어 쓰는 기계입니다",
-      "link": "https://feelyoworks.wordpress.com/2026/10/19/ai-story-13-llm-next-word/",
-      "date": "2026-10-19",
-      "categories": [
-        "AI이야기",
-        "AI 이야기",
-        "대규모 언어 모델"
-      ],
-      "summary": "AI 이야기 · 13편 휴대폰 자판의 추천 단어만 계속 눌러도 제법 문장이 만들어지죠. 챗GPT 같은 LLM도 바탕은 이와 같은 ‘다음 말 맞히기’입니다. LLM, 즉 대규모 언어 모델은 엄청난 양의 글로 다음 말 맞히기를 배운 AI입니다. 같은 원리라는데 LLM은 어떻게 긴 글을 요약하고 설명까지 해낼까요. 같은 질문을 두 번 하면 왜 답이 조금씩 달라질까요. LLM은 답을 어딘가에서 찾아…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-llm-next-word.png"
     }
   ]
 }
