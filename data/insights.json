@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-11-05T04:55:07+00:00",
+  "updated": "2026-11-09T04:25:55+00:00",
   "items": [
+    {
+      "title": "클로드 스킬이란, AI에게 일을 묻지 않고 맡기게 된 방법",
+      "link": "https://feelyoworks.wordpress.com/2026/11/07/ai-story-26-claude-skills-cowork/",
+      "date": "2026-11-07",
+      "categories": [
+        "AI이야기",
+        "AI 업무 자동화",
+        "AI 이야기"
+      ],
+      "summary": "AI 이야기 · 26편 클로드 스킬 이야기는 이 불편에서 시작합니다. 새 대화창을 열 때마다 같은 설명을 처음부터 다시 해 본 적이 있을 겁니다. “우리 보고서는 이런 양식이고, 숫자는 이렇게 쓰고…” 어제 가르쳐 준 것을 오늘은 모르는 신입사원 같습니다. 왜 AI는 매번 처음부터 물어야 했을까요. 이 글을 읽으면 클로드 스킬이 이 불편을 어떻게 덜어 주었는지, 그 방법이 왜 한 회사의 기능…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/11/01-ai-story-claude-skills-cowork.png"
+    },
     {
       "title": "AI는 어쩌다 놀이가 됐을까, 지브리풍 열풍에서 작업 지시서까지",
       "link": "https://feelyoworks.wordpress.com/2026/11/05/ai-story-25-ghibli-style-nano-banana-sora/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 17편 AI를 일마다 따로 사야 할까요? 기반 모델 이야기는 누구의 부엌에나 있는 장면에서 시작합니다. 밥은 밥솥이, 빵은 토스터가, 주스는 믹서기가 맡고, 밥솥으로 빵을 구울 수는 없습니다. 새 요리를 하려면 새 기계를 하나 더 들여야 하죠. AI 이야기를 듣다 보면 같은 질문이 나옵니다. “번역용, 요약용, 글쓰기용 AI도 따로 사야 하나요?” 이 글을 읽으면 챗GPT 이…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-foundation-model.png"
-    },
-    {
-      "title": "AI 그림은 어떻게 만들어질까, 텔레비전 눈보라에서 그림이 나오는 확산 모델",
-      "link": "https://feelyoworks.wordpress.com/2026/10/24/ai-story-16-diffusion-model/",
-      "date": "2026-10-24",
-      "categories": [
-        "AI이야기",
-        "AI 그림",
-        "AI 이야기"
-      ],
-      "summary": "AI 이야기 · 16편 AI 그림이 글 한 줄로 쏟아져 나오던 때가 있었습니다. 2025년 3월 말, 챗GPT에 사진을 올리고 “지브리 스타일로”라고 쓰면 그림으로 바뀌어 나왔고, 그 무렵 SNS는 그런 이미지로 가득 찼습니다. 샘 올트먼은 GPU가 한계라며 임시 사용 제한을 밝혔습니다. 글 한 줄을 넣었을 뿐인데 AI는 어떻게 그림을 그릴까요. 그리고 왜 한동안 AI 그림 속 손은 손가락…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-diffusion-model.png"
     }
   ]
 }
