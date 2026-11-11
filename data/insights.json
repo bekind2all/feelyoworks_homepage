@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-11-10T14:13:52+00:00",
+  "updated": "2026-11-11T04:30:01+00:00",
   "items": [
+    {
+      "title": "AGI가 왔다는 말, 누가 어떤 자로 쟀을까",
+      "link": "https://feelyoworks.wordpress.com/2026/11/11/ai-story-28-agi-definitions/",
+      "date": "2026-11-11",
+      "categories": [
+        "AI이야기",
+        "AGI",
+        "AGI 정의"
+      ],
+      "summary": "AI 이야기 · 28편 점심 자리에서 동료가 휴대폰을 내밉니다. 기사 제목에 AGI라는 말이 큼직하게 박혀 있습니다. “이제 AI가 사람만큼 일한다는 거야?” 대답하려다 말문이 막힙니다. AGI의 정의가 무엇이고 무엇을 기준으로 ‘왔다’고 하는지 선뜻 말하기 어렵기 때문입니다. 이상한 점은 AGI를 만들겠다는 회사들조차 이 말을 서로 다르게 쓴다는 겁니다. 그 차이는 말다툼에서 그치지 않고…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/11/01-ai-story-agi-definitions.png"
+    },
     {
       "title": "AI 에이전트에게 일을 맡길 때, 먼저 정해 둘 것은 무엇일까",
       "link": "https://feelyoworks.wordpress.com/2026/11/10/ai-story-27-ai-agent-permission/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 19편 가상의 장면입니다. 김 대리가 AI에게 “보고서를 짧게 정리해 줘”라고 쳤는데, 답을 보고 고개를 갸웃합니다. 컴퓨터가 사람의 말을 알아듣는 시대인데도 “내가 말한 건 이게 아닌데” 싶은 순간이 옵니다. 옛날에는 컴퓨터에게 일을 시키려면 구멍을 뚫거나 정해진 명령어를 외워야 했습니다. 우리는 어떻게 사람의 말로 부탁하는 자리까지 왔을까요. 이 글을 읽으면 컴퓨터의 말을…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-computer-human-language.png"
-    },
-    {
-      "title": "AI는 클수록 똑똑해질까, 규모의 법칙과 ‘불쑥 나타나는 능력’ 이야기",
-      "link": "https://feelyoworks.wordpress.com/2026/10/26/ai-story-18-scaling-law/",
-      "date": "2026-10-26",
-      "categories": [
-        "AI이야기",
-        "AI 이야기",
-        "매개변수"
-      ],
-      "summary": "AI 이야기 · 18편 AI는 클수록 똑똑해진다던데, 그럼 제일 큰 걸 쓰면 될까요? AI 뉴스에는 “매개변수 1,750억 개”, “5,000억 달러 투자” 같은 큰 숫자가 자주 나옵니다. 매개변수 (파라미터)는 모델 속에 들어 있는 조절 손잡이 같은 숫자이고, 이 손잡이가 많을수록 큰 모델이라 부릅니다. 17편에서 본 GPT-3처럼 말로 부탁하면 일을 하는 AI의 능력은 어디서 왔을까요.…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-scaling-law.png"
     }
   ]
 }
