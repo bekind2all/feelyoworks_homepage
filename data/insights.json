@@ -1,7 +1,19 @@
 {
   "source": "https://feelyoworks.wordpress.com/feed/",
-  "updated": "2026-11-12T06:50:54+00:00",
+  "updated": "2026-11-13T04:52:13+00:00",
   "items": [
+    {
+      "title": "너무 강해서 걸어 잠근 AI, 미토스는 왜 공개되지 않았을까",
+      "link": "https://feelyoworks.wordpress.com/2026/11/13/ai-story-30-mythos-locked-ai/",
+      "date": "2026-11-13",
+      "categories": [
+        "AI이야기",
+        "AI 이야기",
+        "미토스"
+      ],
+      "summary": "AI 이야기 · 30편 휴대폰에 업데이트 알림이 떠 있습니다. 오늘도 “나중에”를 누르고 뉴스를 넘기는데 “너무 강해서 공개하지 않는 AI, 미토스”라는 제목이 눈에 걸립니다. 회사가 공들여 만든 AI를 왜 팔지 않고 잠가 둘까요. 그리고 그 먼 나라 이야기가 방금 넘긴 “나중에” 버튼과 무슨 상관일까요. 이 글을 읽으면 2026년 AI 회사들이 왜 강력한 AI를 잠그거나 둘로 나눠 내놓았는…",
+      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/11/01-ai-story-mythos-locked-ai.png"
+    },
     {
       "title": "“AGI 시대” 선언과 GPT-6 아스트라, 점수가 두 개였던 이유",
       "link": "https://feelyoworks.wordpress.com/2026/11/12/ai-story-29-agi-era-astra/",
@@ -109,18 +121,6 @@
       ],
       "summary": "AI 이야기 · 21편 챗GPT에 “보도자료 써 줘” 한 줄만 쳤더니 어디서 본 듯한 뻔한 글이 나와서 맥이 빠진 적, 있으신가요. 회사 소개와 제품 설명을 길게 붙여 넣고서야 쓸 만해졌다면, 그다음에 이런 의문이 따라옵니다. 이렇게 붙여 넣은 내용은 어디로 가는 걸까. 회사 자료를 넣어도 되는 걸까요. 이 글을 읽으면 챗GPT를 처음 쓰던 2023년의 회사들이 이 질문에 어떻게 답했는지,…",
       "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-pasting-company-data-chatgpt.png"
-    },
-    {
-      "title": "챗GPT 두 달 만에 1억 명, 왜 이렇게 빨리 퍼졌을까",
-      "link": "https://feelyoworks.wordpress.com/2026/10/29/ai-story-20-chatgpt-100-million/",
-      "date": "2026-10-28",
-      "categories": [
-        "AI이야기",
-        "AI 이야기",
-        "생성형 AI"
-      ],
-      "summary": "AI 이야기 · 20편 챗GPT의 월간 이용자가 두 달 만에 1억 명에 이른 것으로 추산됐다는 소식이 오르내리던 때가 있었습니다. 뉴스에서도 주변 이야기에서도 챗GPT라는 이름이 계속 들려서, 나만 안 써 본 건가 싶었던 분도 계실 겁니다. 그런데 GPT-3 같은 모델은 2020년에 이미 논문으로 나와 있었습니다. 왜 하필 이때, 이렇게 빨리 퍼졌을까요. 그 1억 명이라는 숫자는 누가 어떻게…",
-      "image": "https://feelyoworks.wordpress.com/wp-content/uploads/2026/10/01-ai-story-chatgpt-garden-gate.png"
     }
   ]
 }
